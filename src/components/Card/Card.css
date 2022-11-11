@@ -4,4 +4,22 @@
 
 .conteiner {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-evenly;
+    text-rendering: geometricPrecision;
+    align-items: flex-start;
+    justify-items: auto;
+    justify-content:space-between;
+    float: left;
+ 
+   
 }
+
+.producto {
+    justify-content: space-between;
+    align-items: auto;
+    justify-items: auto;
+}
+
+

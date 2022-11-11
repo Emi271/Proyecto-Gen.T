@@ -3,16 +3,16 @@ import './Contact.css'
 import { Form, Button } from 'react-bootstrap';
 import * as Yup from 'yup';
 import { useFormik, Formik } from 'formik';
-
-
+ 
+ 
 function Contact() {
-
+ 
     const [info, setInfo] = useState(null);
-
+ 
     const validateSchema = Yup.object().shape({
         email: Yup.string().email('Invalid email').required('Required'),
     });
-
+ 
     // const formik = useFormik({
     //     initialValues: {
     //         email: '',
@@ -24,15 +24,15 @@ function Contact() {
     //     },
     //     validateSchema: { validateSchema }
     // });
-
+ 
     function handleSubmit(data) {
         setInfo(data);
     }
-
-
+ 
+ 
     return (
         <>
-
+ 
             <div className='text'><h1>Comunicate con nosotros!</h1></div>
             <div className='form'>
                 <Formik
@@ -55,7 +55,7 @@ function Contact() {
                         values,
                         validateForm,
                     }) => (
-
+ 
                         <Form noValidate >
                             <Form.Group controlId="formBasicEmail">
                                 <Form.Label>Email address</Form.Label>
@@ -96,5 +96,5 @@ function Contact() {
         </>
     )
 }
-
+ 
 export default Contact

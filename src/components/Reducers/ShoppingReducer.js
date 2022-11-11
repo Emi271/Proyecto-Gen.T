@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { TYPES } from "../Actions/ShoppingActions";
+import { TYPES } from "../Actions/ShoppingAcctions";
 import { data } from '../assets/db/data'
 
 

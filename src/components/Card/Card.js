@@ -1,60 +1,62 @@
 import React from 'react'
-import { useState, useReducer } from 'react'
-import { shoppingcartInitialState, shoppingreducer } from '../Reducers/ShoppingReducer'
 import './Card.css'
-import { TYPES } from '../Actions/ShoppingActions'
-import { data } from '../assets/db/data'
-import { useEffect } from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import ShopContext from '../Context/ShopContext'
-
+import {Link} from "react-router-dom";
+ 
 function CardProduct() {
-
-
-  const [productos, setproductos] = useState([])
-
+ //  const [productos, setproductos] = useState([])
+/*
   useEffect(() => {
     setproductos(data);
-  }, []);
-
+  }, []); */
+ 
   // function addToCart(id) {
   //   dispatch({ type: TYPES.ADD_TO_CART, payload: id })
   //   console.log(state)
   // }
-
+ 
   return (
     <>
       <ShopContext.Consumer>
         {context => (
-          <React.Fragment>
-            <div>Products</div>
-
+          <>
+            <div>Nuestros Productos</div>
+            <br></br>
+            <div>Filtros de búsqueda</div>
+ 
             <div className='conteiner'>
               {context.products.map((p) => {
                 return (
-
-                  <Card style={{ width: '18rem' }}>
+ 
+                  <Card 
+                  className='producto'
+                  style={{ width: '18rem' }}>
+                    <Link to={'/item/${p.id}'}>
                     <Card.Img variant="top" src={p.image} />
-                    <Card.Body>
+                    </Link>
+                    <Card.Body
+                    className='product'>
                       <Card.Title>{p.name}</Card.Title>
                       <Card.Text>
                         {p.price}
                       </Card.Text>
-                      <Button onClick={() => context.addProductToCart(p)} variant="primary">AÑADIR AL CARRITO</Button>
+                      <Button onClick={() => context.addProductToCart(p)} variant="primary"><p>Comprar</p></Button>
                     </Card.Body>
                   </Card>
-
-
+                 
+ 
+ 
                 )
               })
               }
             </div>
-          </React.Fragment>
+          </>
         )}
       </ShopContext.Consumer>
     </>
   )
 }
-
+ 
 export default CardProduct

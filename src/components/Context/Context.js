@@ -2,7 +2,7 @@ import React, { useState, useReducer } from "react";
 import ShopContext from "./ShopContext";
 import { shoppingreducer } from '../Reducers/ShoppingReducer'
 import { data } from '../assets/db/data'
-import { TYPES } from '../Actions/ShoppingActions'
+import { TYPES } from '../Actions/ShoppingAcctions'
 
 function GlobalState(props) {
   const [products, setProductos] = useState(data);

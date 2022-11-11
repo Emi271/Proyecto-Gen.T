@@ -8,11 +8,11 @@ function ShoppingCart() {
   console.log(context)
   return (
     <>
-      <div>ShoppingCart</div>
-      <div>
-        <h1>Productos</h1>
 
-        <article className='box'><h3>Carrito</h3>
+      <div>
+        <h1>Productos agregados al carrito</h1>
+
+       <article className='box'><h3>Carrito</h3>
           <div>
             {context.cart.map((p) => {
               return (
