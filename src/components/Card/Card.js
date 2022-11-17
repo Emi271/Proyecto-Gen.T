@@ -4,6 +4,8 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import ShopContext from '../Context/ShopContext'
 import {Link} from "react-router-dom";
+import CardHeader from 'react-bootstrap/esm/CardHeader';
+
  
 function CardProduct() {
  //  const [productos, setproductos] = useState([])
@@ -26,19 +28,18 @@ function CardProduct() {
             <br></br>
             <div>Filtros de búsqueda</div>
  
-            <div className='conteiner'>
+            <div className='grid'>
               {context.products.map((p) => {
                 return (
  
                   <Card 
-                  className='producto'
                   style={{ width: '18rem' }}>
                     <Link to={'/item/${p.id}'}>
-                    <Card.Img variant="top" src={p.image} />
+                    <Card.Img className='imgn' variant="top" src={p.image} />
                     </Link>
-                    <Card.Body
-                    className='product'>
-                      <Card.Title>{p.name}</Card.Title>
+                    <Card.Body>
+                      <Card.Title className='tittle'>{p.name}</Card.Title>
+                      <CardHeader>{p.marca}</CardHeader>
                       <Card.Text>
                         {p.price}
                       </Card.Text>
@@ -46,12 +47,13 @@ function CardProduct() {
                     </Card.Body>
                   </Card>
                  
- 
+                
  
                 )
               })
               }
             </div>
+         
           </>
         )}
       </ShopContext.Consumer>

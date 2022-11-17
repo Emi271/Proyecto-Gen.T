@@ -2,24 +2,24 @@
     max-width: 20%;
 }
 
-.conteiner {
-    display: flex;
+.grid {
+    display:flex;
     flex-wrap: wrap;
     flex-direction:row;
     justify-content: space-evenly;
     text-rendering: geometricPrecision;
-    align-items: flex-start;
     justify-items: auto;
+    gap: 30px;
     justify-content:space-between;
-    float: left;
- 
+    float: left; 
    
 }
 
-.producto {
-    justify-content: space-between;
-    align-items: auto;
-    justify-items: auto;
+.imgn {
+    height: 280px;
+    
 }
+/* 
+.tittle {
 
-
+} */

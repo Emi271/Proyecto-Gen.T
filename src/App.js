@@ -8,12 +8,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ShoppingCart from './components/ShoppingCart/ShoppingCart';
 import GlobalState from './components/Context/Context';
 import Item from './components/Item/Item';
- 
+import Footer from './components/Footer/Footer';
+
+
 function App() {
   return (
     <GlobalState>
     <div className="App">
       <Navegation />
+     
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/productos" element={<CardProduct />} />
@@ -21,7 +24,10 @@ function App() {
         <Route path="/item/:id" element={<Item />} />
         <Route path="/shoppingCard" element={<ShoppingCart />} />
       </Routes>
+      <br></br>
+      <Footer></Footer>
     </div>
+   
     </GlobalState>
  
   );
