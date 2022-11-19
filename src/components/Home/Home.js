@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card, CardGroup, CardImg } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
+import c1 from '../assets/imgs/carousel1.jpg'
 /* import { Link } from 'react-router-dom'; */
 
  
@@ -9,11 +10,11 @@ function Home() {
         <>
         <div className='home'>
  
-        <Carousel>
+        <Carousel className='carousel' >
       <Carousel.Item className='item'>
         <img
           className="perfum-img1"
-          src="https://d3cdlnm7te7ky2.cloudfront.net/media/weltpixel/owlcarouselslider/images/b/h/bh_guerlain_desk_2__2.jpg"
+          src={c1}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -51,11 +52,7 @@ function Home() {
 
  <CardGroup>
   <Card>
-    <CardImg src=''></CardImg>
-    <Card.Body>
-  
-  
-    </Card.Body>
+              
   </Card>
  </CardGroup>
 

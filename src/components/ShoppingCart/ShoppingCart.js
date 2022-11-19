@@ -9,10 +9,10 @@ function ShoppingCart() {
   return (
     <>
 
-      <div>
+      <div className='cart' > 
       {/*   <h1>Carrito</h1> */}
  
-        <article className='box'><h3>Carrito</h3>
+        <article className='box'><h3 className='texto'>Carrito</h3>
           <div>
             {context.cart.map((p) => {
               return (

@@ -5,6 +5,7 @@ export const data = [
     "id": "1",
     "name": "CLASSIC CHROMITE MEN EDT 100 ML",
     "price":"14.900",
+    "categoria":"perfume-hombre",
     "marca":"JAGUAR",
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/12f58ba0b5ccdae4c7a04d12241535d5/1/2/120726-a-classic-chromite-men-edt-100ml_1.jpg"
    

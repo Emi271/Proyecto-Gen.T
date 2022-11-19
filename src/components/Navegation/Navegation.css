@@ -1,15 +1,14 @@
     .nav-items{
       width: auto;
-      overflow: auto;
         display: flex !important;
         list-style: none;
         margin-bottom: 0px !important;
         align-items:center;
         margin: 15px;
         position: relative;
-        justify-content: space-between !important;
+        justify-content: space-evenly;
     }
-    .nav-logo {
+    .inicio {
       color: rgb(0, 0, 0);
       font-size: 28px;
       font-weight :900;
@@ -29,7 +28,6 @@
         width: 100%;
         min-height: 60px;
         max-height: 90px;
-        overflow: hidden;
         display: flex;
         justify-content: space-between;
         align-items:center;
@@ -37,14 +35,14 @@
         padding: 0px;
         background-color:rgb(246, 224, 247);
         border-bottom: 1px solid #ffffff;
-        z-index: 999;
+        z-index:1;
        
    
     }
        
        
     .nav-item:nth-child(1) {
-        margin-right: 50px;
+        margin-right: 20px;
         }
        
    
@@ -55,28 +53,29 @@
      .cart-img {
         filter: brightness(1.1);
         mix-blend-mode: multiply;
-        max-width: 30% !important;
-        margin-top: -8% !important;
+        max-width: 30px;
+        margin-top: -5% !important;
         display: flex !important;
         margin-bottom: 0px !important;
-
+        margin-left: 2rem;
      }
      .cart-img2 {
         filter: brightness(1.1);
         mix-blend-mode: multiply;
-        max-width: 30% !important;
+        max-width: 30px;
         margin-top: -8% !important;
         margin-bottom: 0px !important;
         display: flex !important;
+        margin-left: 1rem;
      }
  
      .me-gusta {
         filter: brightness(1.1);
         mix-blend-mode: multiply;
-        min-width: 30% !important;
-        max-width: 30% !important;
+        max-width: 30px;
         margin-top: -8%;
         display: flex;
+        margin-left: 1rem;
      }
 
      @media only screen and (max-width: 766px) {
@@ -93,4 +92,14 @@
       }
     }
 
+  .nav-dropdown{
+    color: rgb(162, 0, 255);
+    font-size: 18px;
+    font-weight :900;
+    letter-spacing: 3px;
+    text-align: left;
+    z-index: 4;
+
+  
+  }
 
