@@ -33,7 +33,7 @@ function Contact() {
     return (
         <>
  
-            <div className='text'><h1>Comunicate con nosotros!</h1></div>
+            <div className='text'><h1>¡Regístrate!</h1></div>
             <div className='form'>
                 <Formik
                     validationSchema={validateSchema}
@@ -58,11 +58,11 @@ function Contact() {
  
                         <Form noValidate >
                             <Form.Group controlId="formBasicEmail">
-                                <Form.Label>Email address</Form.Label>
+                                <Form.Label>Correo electrónico</Form.Label>
                                 <Form.Control
                                     type="email"
                                     name="email"
-                                    placeholder="Enter email"
+                                    placeholder="Introduzca su correo electrónico"
                                     onChange={handleChange}
                                     isInvalid={!!errors.email}
                                 />
@@ -71,23 +71,49 @@ function Contact() {
                                 </Form.Control.Feedback>
                             </Form.Group>
                             <Form.Group controlId="formBasicName">
-                                <Form.Label>Name</Form.Label>
+                                <Form.Label>Nombre</Form.Label>
                                 <Form.Control type="text"
                                     name="name"
-                                    placeholder="Enter name"
+                                    placeholder="Introduzca su nombre"
+                                    onChange={handleChange}
+                                />
+                            </Form.Group>
+                            <Form.Group controlId="formBasicSurname">
+                                <Form.Label>Apellido</Form.Label>
+                                <Form.Control
+                                    type="text"
+                                    name="surname"
+                                    placeholder="Introduzca su apellido"
+                                    onChange={handleChange}
+                                />
+                                <Form.Control.Feedback type="invalid">
+                                    {errors.email}
+                                </Form.Control.Feedback>
+                            </Form.Group>
+                            <Form.Group controlId="formBasicPass">
+                                <Form.Label>Contraseña</Form.Label>
+                                <Form.Control type="password"
+                                    name="password"
+                                    placeholder="Introduzca una contraseña"
                                     onChange={handleChange}
                                 />
                             </Form.Group>
                             <Form.Group controlId="formBasicPass">
-                                <Form.Label>Password</Form.Label>
+                                <Form.Label>Confirme la contraseña</Form.Label>
                                 <Form.Control type="password"
                                     name="password"
-                                    placeholder="Enter password"
+                                    placeholder="Repita la contraseña"
                                     onChange={handleChange}
                                 />
                             </Form.Group>
-                            <Button className='button' variant="primary" onClick={() => validateForm()}>
-                                Submit
+                            <br></br>
+                            <Button className='button' variant="info" onClick={() => validateForm()}>
+                                Crear cuenta
+                            </Button>
+                            <br></br>
+                            <div>Si tienes una cuenta haz clic aquí</div>
+                            <Button className='button' variant="dark" onClick={() => validateForm()}>
+                            Iniciar sesión    
                             </Button>
                         </Form>
                     )}

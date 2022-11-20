@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer-1'> Acerca de Emi're
     <br></br><br></br> Nuestros locales <br></br> Métodos de pago <br></br>
     Métodos de envío <br></br> Política de cambios y devoluciones <br></br>
-     <a href="/terms" target={"_blanck"} rel="noopener noreferrer" >Terminos y Condiciones</a> 
+     <a href="/terms" target={"_blanck"} rel="noopener noreferrer" >Terminos y Condiciones</a>
      <Routes>
      <Route path="/terminos y condiciones" element={<Terms />} />
      </Routes>

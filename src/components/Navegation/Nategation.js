@@ -1,35 +1,27 @@
 import React from 'react'
 import './Navegation.css'
 import { Link, Outlet } from "react-router-dom";
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Navbar from 'react-bootstrap/Navbar';
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
 /* IMPORTACIONES DE IMAGENES */
 import img from '../assets/imgs/carrito.png'
 import img2 from '../assets/imgs/usuario.png'
 import img3 from '../assets/imgs/corazon.png'
 
-
 function Navegation () {
   return (
     <>
-    <nav className='nav-conteiner'>
-        <ul className='nav-items'>
-        <NavDropdown  className='nav-dropdown' id="basic-nav-dropdown">
-              <NavDropdown.Item to="/">Fragancias</NavDropdown.Item>
-              <NavDropdown.Item to="/">Accesorios</NavDropdown.Item>
-              <NavDropdown.Item to="/">Eventos</NavDropdown.Item>
-              <NavDropdown.Item to="/">Maquillaje</NavDropdown.Item>
-              <NavDropdown.Item to="/">Capilar</NavDropdown.Item>
-              </NavDropdown>
-
-        <a className='inicio'><Link to="/">Emi're</Link></a>
-          <li className='nav-item'><Link to="/productos">Productos</Link></li>
-          <li> <Link to="/shoppingCard">
+    {/* <nav className='nav-conteiner'> */}
+      <Navbar expand="lg"  >
+        <Container  className='nav-conteiner'>
+          
+          
+         {/* ESTOS SON LOS ÍCONOS */}
+          <ul className='nav-items'>
+            <li> <Link to="/shoppingCard">
             <img src={img} alt={"logo"} className="cart-img" />
           </Link></li>
-
           <li> <Link to="/contacto">
             <img src={img2} alt={"logo"} className="cart-img2" />
           </Link></li>
@@ -38,20 +30,18 @@ function Navegation () {
             </Link>
              </li>
              </ul>
-             {/* <li> <Link to="Buscador">
-            <img src={img4} alt={"logo"} className="buscador" />
-            </Link>
-             </li> */}
-             <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Search</Button>
-          </Form>
-        </nav>
+             <Navbar.Brand href="/">Emi're</Navbar.Brand>
+         <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="me-auto">
+          <div className='nav-item'>
+        <Nav.Link href='/productos'>Productos</Nav.Link>
+       
+        </div>
+        </Nav>
+          </Navbar.Collapse>
+        </Container>
+    </Navbar>
        </>
  )
 }

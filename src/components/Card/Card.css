@@ -1,7 +1,7 @@
-.img {
+/* .img {
     max-width: 20%;
 }
-
+ */
 .grid {
     display:flex;
     flex-wrap: wrap;
@@ -10,7 +10,7 @@
     text-rendering: geometricPrecision;
     justify-items: auto;
     gap: 30px;
-    justify-content:space-between;
+   /*  justify-content:space-between */;
     float: left; 
    
 }
