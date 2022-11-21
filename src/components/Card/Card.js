@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
+/* import React, { useState } from 'react'; */
 import './Card.css'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
@@ -18,7 +19,20 @@ function CardProduct() {
   //   dispatch({ type: TYPES.ADD_TO_CART, payload: id })
   //   console.log(state)
   // }
- 
+/*  
+const categoria = () => {
+
+  const[data, setData] = useState(data);
+
+  const filterResult = (id) => {
+    const result = data.filter((curDate) => {
+      return curDate.categoria
+    }
+    )
+  }
+}
+
+ */
   return (
     <>
       <ShopContext.Consumer>

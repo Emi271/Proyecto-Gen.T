@@ -1,25 +1,57 @@
 import React from 'react'
 import '../Footer/Footer.css'
-import { Routes, Route, Link } from "react-router-dom";
-import Terms from '../Terms/Terms';
+import { CDBFooter, CDBFooterLink, CDBBtn, CDBIcon, CDBContainer, CDBBox } from 'cdbreact';
 
-function Footer() {
+export const Footer = () => {
   return (
-    <div className='footer-1'> Acerca de Emi're
-    <br></br><br></br> Nuestros locales <br></br> Métodos de pago <br></br>
-    Métodos de envío <br></br> Política de cambios y devoluciones <br></br>
-     <a href="/terms" target={"_blanck"} rel="noopener noreferrer" >Terminos y Condiciones</a>
-     <Routes>
-     <Route path="/terminos y condiciones" element={<Terms />} />
-     </Routes>
-      <br></br>
-    <br></br> Validaciones Bancarias <br></br> correo@lala.com <br></br>  Suscríbete y sé el primero en estar
-     al tanto de nuevos lanzamientos,<br></br> promociones, novedades y mucho más!!<br></br><br></br>  
-                            <br></br>
-     Dirección General de Defensa y Protección al Consumidor: <br></br>
-     Para consultas y/o denuncias ingrese aquí
-     </div>
-  )
-}
+    <CDBFooter /* className="shadow" */>
+      <CDBBox display="flex" flex="column" className="mx-auto py-0" style={{ width: '90%' }}>
+        <CDBBox display="flex" justifyContent="between" className="flex-wrap">
+          <CDBBox alignSelf="center">
+            <a href="/" className="d-flex align-items-center p-0 text-dark">
+             {/*  <img alt="logo" src="logo" width="30px" /> */}
+              <span className="ml-0 h6 font-weight-bold">Acerca de Emi're</span>
+            </a>
+            <CDBBox className="mt-2" display="flex">
+              <CDBBtn flat color="dark" className="p-2">
+                <CDBIcon fab icon="facebook-f" />
+              </CDBBtn>
+              <CDBBtn flat color="dark" className="mx-3 p-2">
+                <CDBIcon fab icon="twitter" />
+              </CDBBtn>
+              <CDBBtn flat color="dark" className="p-2">
+                <CDBIcon fab icon="instagram" />
+              </CDBBtn>
+            </CDBBox>
+          </CDBBox>
+          <CDBBox>
+            <p className="h5 mb-4" style={{ fontWeight: '600' }}>
+            ¯\_(ツ)_/¯
+            </p>
+            <CDBBox display="flex" flex="column" style={{ cursor: 'pointer' }}>
+              <CDBFooterLink href="/">Nuestros locales</CDBFooterLink>
+              <CDBFooterLink href="/">Métodos de pago</CDBFooterLink>
+              <CDBFooterLink href="/">Métodos de envío</CDBFooterLink>
+              <CDBFooterLink href="/">Política de cambios y devoluciones</CDBFooterLink>
+            </CDBBox>
+          </CDBBox>
+          <CDBBox>
+            <p className="h5 mb-2" style={{ fontWeight: '600' }}>
+            no se como se va a llamar esto
+            </p>
+            <CDBBox display="flex" flex="column" style={{ cursor: 'pointer' }}>
+              <CDBFooterLink href="/">Terminos y Condiciones</CDBFooterLink>
+              <CDBFooterLink href="/">Validaciones Bancarias</CDBFooterLink>
+              <CDBFooterLink href="/contacto">Suscríbete</CDBFooterLink>
+              <CDBFooterLink href="/">Para consultas y/o denuncias ingrese aquí</CDBFooterLink>
+            </CDBBox>
+          </CDBBox>
+        </CDBBox>
+        <small className="text-center mt-5"> Copyright 2022 &copy; Emi're.</small>
+      </CDBBox>
+    </CDBFooter>
+  );
+};
+
 
 export default Footer

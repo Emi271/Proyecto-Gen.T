@@ -392,6 +392,31 @@ export const data = [
 "categoria": "shampoo",
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/p/s/ps131737-a.jpg"
 },
+{
+    "id": "50",
+"name": "MÁSCARA MATIZADORA SILVER 250ML",
+"price":"2.360",
+"marca":"LA PUISSANCE",
+"categoria": "mascara",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/4/144697-a-mascara-matizadora-silver-250ml.jpg"
+},
+{
+    "id": "51",
+"name": "MÁSCARA QUERATINA HIDROLIZADA 250ML",
+"price":"1.630",
+"marca":"LA PUISSANCE",
+"categoria": "mascara",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/4/144691-a-mascara-queratina-hidrolizada-250ml.jpg"
+},
+{
+    "id": "52",
+"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
+"price":"7.072",
+"marca":"ALFAPARF",
+"categoria": "mascara",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/8/8/88498-a-semi-di-lino-diamond-illuminating-mask-200ml.jpg"
+},
+
 ]
 
  

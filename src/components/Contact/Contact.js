@@ -10,7 +10,7 @@ function Contact() {
     const [info, setInfo] = useState(null);
  
     const validateSchema = Yup.object().shape({
-        email: Yup.string().email('Invalid email').required('Required'),
+        email: Yup.string().email('Complete su correo electrónico').required('Este casillero es obligatorio'),
     });
  
     // const formik = useFormik({

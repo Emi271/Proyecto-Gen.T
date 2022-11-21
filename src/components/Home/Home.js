@@ -46,7 +46,33 @@ function Home() {
           </p>
         </Carousel.Caption>
       </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="w-100 d-block"
+          src="https://d3cdlnm7te7ky2.cloudfront.net/media/weltpixel/owlcarouselslider/images/d/i/diorxmas_parfumerie-homedesktop-1350x400_1.jpg"
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="w-100 d-block"
+          src="https://d3cdlnm7te7ky2.cloudfront.net/media/weltpixel/owlcarouselslider/images/b/h/bh_antonio_banderas_7_.jpg"
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <p>
+          Promoción válida por tiempo o hasta agotar stock. No incluye sets ni es acumulable con otras promociones.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
     </Carousel>
+
+    {/* ACÁ ABAJO VAN LOS CARDS SUGIRIENDO PRODUCTOS, OFERTAS Y DEMÁS..
+    DEBERÍAMOS VER UN TOQUE EL COLOR DE LA NAVBAR.. YO
+    PENSABA EN UN ROSA O LILA ALGO TRANQUI PERO HERMOSO
+  */}
         </div>
         <br></br>
            <p className='Texto1'> No te pierdas nuestros últimos lanzamientos! </p>

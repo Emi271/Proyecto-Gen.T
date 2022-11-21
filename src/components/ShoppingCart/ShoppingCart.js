@@ -1,35 +1,45 @@
 import React from 'react'
 import { useContext } from 'react'
+import Card from 'react-bootstrap/Card';
 import ShopContext from '../Context/ShopContext'
 import './ShoppingCart.css'
  
 function ShoppingCart() {
   const context = useContext(ShopContext);
-  console.log(context)
+  console.log(context);
   return (
-    <>
-
+<>
       <div className='cart' > 
-      {/*   <h1>Carrito</h1> */}
- 
-        <article className='box'><h3 className='texto'>Carrito</h3>
-          <div>
+      <article className='box'>
+      <h3 className='texto'>Carrito</h3>
             {context.cart.map((p) => {
               return (
-                <div><p>{p.newItem.name}</p>
-                  <p>Cantidad : {p.quantity}</p>
-                  <p>Precio: {p.newItem.price}</p>
-                  <button onClick={() => context.removeProductFromCart(p.newItem.id)}>Eliminar</button></div>)
-            })
+                <Card style={{ width: '18rem' }}>
+                <Card.Body>
+                <Card.Title>{p.newItem.name}</Card.Title>
+                <Card.Img className='imgn' variant="top" src={p.newItem.image} />
+                  <Card.Text>Cantidad : {p.quantity}</Card.Text>
+                  <Card.Text>Precio: {p.newItem.price}</Card.Text>
+                  <button onClick={() => context.removeProductFromCart(p.newItem.id)}>Eliminar</button>
+                  </Card.Body>
+                  </Card>
+              );
+            })}
+              </article>
+                  </div>
+                  </>
+              
+              );
             }
+            
+
+         
+           
+          
+    
+        
+      
  
-          </div>
-        </article>
-      </div>
-    </>
- 
-  )
-}
- 
+
 export default ShoppingCart
  
