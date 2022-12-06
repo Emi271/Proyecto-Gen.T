@@ -1,65 +1,72 @@
-import { useState } from "react";
-import { TYPES } from "../Actions/ShoppingAcctions";
-import { data } from '../assets/db/data'
+import {
+  ADD_TO_CART,
+  CLEAR_CART,
+  REMOVE_ALL_FROM_CART,
+  REMOVE_ONE_FROM_CART,
+} from "../Types/Index"
 
+ export const initialState = {
+  products: [
+    /* { id: 1, name: "Producto 1", price: 100 },
+    { id: 2, name: "Producto 2", price: 200 },
+    { id: 3, name: "Producto 3", price: 300 },
+    { id: 4, name: "Producto 4", price: 400 },
+    { id: 5, name: "Producto 5", price: 500 },
+    { id: 6, name: "Producto 6", price: 600 }, */
+  ],
+  cart: [],
+};  
 
+export function shoppingReducer(state = initialState, action) {
+  switch (action.type) {
+    case ADD_TO_CART: {
+      let newItem = state.products.find(
+        (product) => product.id === action.payload
+      );
+      //console.log(newItem);
 
-export const shoppingcartInitialState = {
-    products: data,
-    cart: []
-}
+      let itemInCart = state.cart.find((item) => item.id === newItem.id);
 
-
-//Funcion pura
-export function shoppingreducer(state, action) {
-    switch (action.type) {
-        case TYPES.ADD_TO_CART: {
-
-            let newItem = data.find(x => x.id === action.product.id)
-
-            //reviso en mi carrito si ya no tengo ese item
-            let itemCart = state.cart.find(x => x.id === action.product.id)
-
-
-
-            return itemCart ? {
-                // si lo tengo entonces sumar la cantidad y CALCULAR EL VALOR DEL TOTAL
-                ...state,
-                cart: state.cart.map((item) => item.id === newItem.id
-                    ? { ...item, quantity: item.quantity + 1, total: item.price * item.quantity } : item
-                ),
-            }
-                : {
-                      // si NO lo tengo entonces EL TOTAL ES EL PRECIO Y LA CANTIDAD 1
-                    ...state,
-                    cart: [...state.cart, { newItem, quantity: 1, total: newItem.price }]
-                }
-        }
-
-        case TYPES.REMOVE_ONE_FROM_CART: {
-
-            let itemDelete = data.find(x => x.id === action.productId)
-
-            return itemDelete.quantity > 1 ? {
-
-                ...state,
-                cart: state.cart.map((item) => item.id === action.productId
-                    ? { ...item, quantity: item.quantity - 1, total: item.price * item.quantity} : item
-                ),
-            } : {
-                ...state,
-                cart: state.cart.filter(x => x.id !== action.payload)
-            }
-        }
-
-        case TYPES.REMOVE_ALL_FROM_CART: {
-
-        }
-        case TYPES.CLEAR_CART: {
-            return shoppingcartInitialState
-
-        }
-
-        default: return state;
+      return itemInCart
+        ? {
+            ...state,
+            cart: state.cart.map((item) =>
+              item.id === newItem.id
+                ? { ...item, quantity: item.quantity + 1 }
+                : item
+            ),
+          }
+        : {
+            ...state,
+            cart: [...state.cart, { ...newItem, quantity: 1 }],
+          };
     }
+    case REMOVE_ONE_FROM_CART: {
+      let itemToDelete = state.cart.find((item) => item.id === action.payload);
+
+      return itemToDelete.quantity > 1
+        ? {
+            ...state,
+            cart: state.cart.map((item) =>
+              item.id === action.payload
+                ? { ...item, quantity: item.quantity - 1 }
+                : item
+            ),
+          }
+        : {
+            ...state,
+            cart: state.cart.filter((item) => item.id !== action.payload),
+          };
+    }
+    case REMOVE_ALL_FROM_CART: {
+      return {
+        ...state,
+        cart: state.cart.filter((item) => item.id !== action.payload),
+      };
+    }
+    case CLEAR_CART:
+      return initialState;
+    default:
+      return state;
+  }
 }

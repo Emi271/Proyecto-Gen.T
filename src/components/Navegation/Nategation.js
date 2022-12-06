@@ -9,6 +9,7 @@ import img from '../assets/imgs/carrito.png'
 import img2 from '../assets/imgs/usuario.png'
 import img3 from '../assets/imgs/corazon.png'
 
+
 function Navegation () {
   return (
     <>
@@ -19,9 +20,9 @@ function Navegation () {
           
          {/* ESTOS SON LOS ÍCONOS */}
           <ul className='nav-items'>
-            <li> <Link to="/shoppingCard">
+            <Nav.Link><li> <Link to="/shoppingCard">
             <img src={img} alt={"logo"} className="cart-img" />
-          </Link></li>
+          </Link></li></Nav.Link>
           <li> <Link to="/contacto">
             <img src={img2} alt={"logo"} className="cart-img2" />
           </Link></li>
@@ -30,7 +31,7 @@ function Navegation () {
             </Link>
              </li>
              </ul>
-             <Navbar.Brand href="/">Emi're</Navbar.Brand>
+          <Navbar.Brand href="/">Emi're</Navbar.Brand>
          <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
