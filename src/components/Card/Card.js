@@ -1,52 +1,42 @@
-import React, { useState } from 'react'
-/* import React, { useState } from 'react'; */
+import React, { useState, useEffect } from 'react'
 import './Card.css'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import ShopContext from '../Context/ShopContext'
 import {Link} from "react-router-dom";
 import CardHeader from 'react-bootstrap/esm/CardHeader';
+import { data } from '../assets/db/data';
 
  
 function CardProduct() {
- //  const [productos, setproductos] = useState([])
-/*
+   const [products, setProducts, categoria] = useState([])
+   
   useEffect(() => {
-    setproductos(data);
-  }, []); */
+    setProducts(data);
+  }, []); 
  
   // function addToCart(id) {
   //   dispatch({ type: TYPES.ADD_TO_CART, payload: id })
   //   console.log(state)
   // }
-/*  
-const categoria = () => {
+ 
 
-  const[data, setData] = useState(data);
 
-  const filterResult = (id) => {
-    const result = data.filter((curDate) => {
-      return curDate.categoria
-    }
-    )
-  }
-}
-
- */
-  return (
+  const perfumemujer = data.filter(x => x.categoria ==='perfumemujer')
+  console.log(perfumemujer);
+return (
     <>
       <ShopContext.Consumer>
         {context => (
           <>
-            <div>Nuestros Productos</div>
+            <h3>Perfumes de mujeres</h3>
             <br></br>
             <div>Filtros de búsqueda</div>
- 
+
             <div className='grid'>
-              {context.products.map((p) => {
-                return (
- 
-                  <Card 
+           
+              {context.products.filter(x => x.categoria ==='perfumemujer').map((p) => {
+                return (<Card 
                   style={{ width: '18rem' }}>
                     <Link to={'/item/${p.id}'}>
                     <Card.Img className='imgn' variant="top" src={p.image} />
@@ -60,10 +50,7 @@ const categoria = () => {
                       <Button onClick={() => context.addProductToCart(p)} variant="primary"><p>Comprar</p></Button>
                     </Card.Body>
                   </Card>
-                 
-                
- 
-                )
+                  ) 
               })
               }
             </div>

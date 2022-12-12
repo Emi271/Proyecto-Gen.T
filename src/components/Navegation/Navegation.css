@@ -5,8 +5,8 @@
         list-style: none;
         margin-bottom: 0px !important;
         align-items:center ;
-        margin: 15px;
-        position:absolute;
+        margin: 6px;
+        position:static;
         justify-content:space-evenly ;
         padding-right: 2rem;
      

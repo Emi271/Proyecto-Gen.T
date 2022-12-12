@@ -6,11 +6,11 @@ export const Footer = () => {
   return (
     <CDBFooter /* className="shadow" */>
       <CDBBox display="flex" flex="column" className="mx-auto py-0" style={{ width: '90%' }}>
-        <CDBBox display="flex" justifyContent="between" className="flex-wrap">
+        <CDBBox display="flex" justifyContent="between">
           <CDBBox alignSelf="center">
             <a href="/" className="d-flex align-items-center p-0 text-dark">
              {/*  <img alt="logo" src="logo" width="30px" /> */}
-              <span className="ml-0 h6 font-weight-bold">Acerca de Emi're</span>
+              <span className="ml-0 h6 font-weight-bold">Contáctanos  !</span>
             </a>
             <CDBBox className="mt-2" display="flex">
               <CDBBtn flat color="dark" className="p-2">
@@ -25,10 +25,10 @@ export const Footer = () => {
             </CDBBox>
           </CDBBox>
           <CDBBox>
-            <p className="h5 mb-4" style={{ fontWeight: '600' }}>
+            <p className="h5 mb-2" style={{ fontWeight: '600' }}>
             ¯\_(ツ)_/¯
             </p>
-            <CDBBox display="flex" flex="column" style={{ cursor: 'pointer' }}>
+            <CDBBox display="flex" flex="column"  style={{ cursor: 'pointer' }}>
               <CDBFooterLink href="/">Nuestros locales</CDBFooterLink>
               <CDBFooterLink href="/">Métodos de pago</CDBFooterLink>
               <CDBFooterLink href="/">Métodos de envío</CDBFooterLink>
@@ -40,14 +40,14 @@ export const Footer = () => {
             no se como se va a llamar esto
             </p>
             <CDBBox display="flex" flex="column" style={{ cursor: 'pointer' }}>
-              <CDBFooterLink href="/">Terminos y Condiciones</CDBFooterLink>
+              <CDBFooterLink href="/TerminosyCondiciones">Terminos y Condiciones</CDBFooterLink>
               <CDBFooterLink href="/">Validaciones Bancarias</CDBFooterLink>
               <CDBFooterLink href="/contacto">Suscríbete</CDBFooterLink>
               <CDBFooterLink href="/">Para consultas y/o denuncias ingrese aquí</CDBFooterLink>
             </CDBBox>
           </CDBBox>
         </CDBBox>
-        <small className="text-center mt-5"> Copyright 2022 &copy; Emi're.</small>
+        <small className="text-center mt-3"> Copyright 2022 &copy; Emi're.</small>
       </CDBBox>
     </CDBFooter>
   );

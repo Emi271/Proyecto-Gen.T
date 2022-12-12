@@ -2,6 +2,9 @@ import React from 'react'
 import './Navegation.css'
 import { Link, Outlet } from "react-router-dom";
 import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 /* IMPORTACIONES DE IMAGENES */
@@ -13,12 +16,9 @@ import img3 from '../assets/imgs/corazon.png'
 function Navegation () {
   return (
     <>
-    {/* <nav className='nav-conteiner'> */}
-      <Navbar expand="lg"  >
-        <Container  className='nav-conteiner'>
-          
-          
-         {/* ESTOS SON LOS ÍCONOS */}
+      <Navbar bg="light" expand="lg"  >
+        <Container>
+          <Navbar.Brand href="/">Emi're</Navbar.Brand>
           <ul className='nav-items'>
             <Nav.Link><li> <Link to="/shoppingCard">
             <img src={img} alt={"logo"} className="cart-img" />
@@ -30,17 +30,25 @@ function Navegation () {
             <img src={img3} alt={"logo"} className="me-gusta" />
             </Link>
              </li>
-             </ul>
-          <Navbar.Brand href="/">Emi're</Navbar.Brand>
-         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+             </ul> 
+         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto">
-          <div className='nav-item'>
-        <Nav.Link href='/productos'>Productos</Nav.Link>
-       
-        </div>
-        </Nav>
-          </Navbar.Collapse>
+        <Nav.Link href="/Maquillaje">Maquillaje</Nav.Link>
+        <NavDropdown title="Fragancias" id="collasible-nav-dropdown">
+              <NavDropdown.Item href="/productos">Fragancias Femeninas</NavDropdown.Item>
+              <NavDropdown.Item href="/FraganciasHombres">Fragancias Masculinas</NavDropdown.Item>
+            </NavDropdown>
+        </Nav> 
+          <Form className="d-flex">
+                  <Form.Control
+                    type="search"
+                    placeholder=""
+                    className="me-2"
+                    aria-label="Search"/>
+    <Button variant="dark">Search</Button>
+                </Form>
+                </Navbar.Collapse>
         </Container>
     </Navbar>
        </>

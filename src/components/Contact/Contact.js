@@ -1,8 +1,11 @@
 import React, { useState } from 'react'
 import './Contact.css'
 import { Form, Button } from 'react-bootstrap';
+import Nav from 'react-bootstrap/Nav';
 import * as Yup from 'yup';
 import { useFormik, Formik } from 'formik';
+import { Link } from 'react-router-dom';
+
  
  
 function Contact() {
@@ -112,8 +115,12 @@ function Contact() {
                             </Button>
                             <br></br>
                             <div>Si tienes una cuenta haz clic aquí</div>
-                            <Button className='button' variant="dark" onClick={() => validateForm()}>
-                            Iniciar sesión    
+                            {/* <Button className='button' variant="dark"><Link to="/IniciarSesion"
+                            src={Contact2}>
+                            Iniciar sesión</Link>    
+                            </Button> */}
+                            <Button className='button' variant="dark"><Nav.Link href='/IniciarSesion'>Iniciar sesión </Nav.Link>
+                            
                             </Button>
                         </Form>
                     )}

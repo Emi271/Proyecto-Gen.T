@@ -5,7 +5,7 @@ export const data = [
     "id": "1",
     "name": "CLASSIC CHROMITE MEN EDT 100 ML",
     "price":"14.900",
-    "categoria":"perfume-hombre",
+    "categoria":"perfumehombre",
     "marca":"JAGUAR",
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/12f58ba0b5ccdae4c7a04d12241535d5/1/2/120726-a-classic-chromite-men-edt-100ml_1.jpg"
    
@@ -14,6 +14,7 @@ export const data = [
     "id": "2",
     "name": "CLASSIC MEN EDT 100 ML",
     "price":"120.000",
+    "categoria":"perfumehombre",
     "marca":"JAGUAR",
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/12f58ba0b5ccdae4c7a04d12241535d5/1/4/145985-a-classic-men-edt-100ml_1.jpg"
    
@@ -22,6 +23,7 @@ export const data = [
     "id": "3",
     "name": "CLASSIC BLACK EDT 100 ML",
     "price":"100.000",
+    "categoria":"perfumehombre",
     "marca":"JAGUAR",
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/12f58ba0b5ccdae4c7a04d12241535d5/1/1/119277-a-classic-black-men-edt-100ml_1.jpg"
    
@@ -30,6 +32,7 @@ export const data = [
     "id": "4",
     "name": "ETERNITY MEN EDP 100 ML",
     "price":"100.000",
+    "categoria":"perfumehombre",
     "marca":"CALVIN KLEIN",
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/P/R/PR25834BI23868_RP131073_ETERNITY_MEN_EDP_SZ1.jpg"
    
@@ -38,6 +41,7 @@ export const data = [
     "id": "5",
     "name": "BAMBU EDT 120 ML",
     "marca":"ADOLFO DOMINGUEZ",
+    "categoria":"perfumehombre",
     "price":"9.735",
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/mtools/300x300/catalog/product//1/0/100786-a-bambu-edt-120ml.jpg"
    
@@ -46,6 +50,7 @@ export const data = [
     "id": "6",
     "name": "KEVIN SPIRIT EDT 100 ML",
     "marca":"KEVIN",
+    "categoria":"perfumehombre",
     "price":"130.000",
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/mtools/300x300/catalog/product//9/3/93446_3.jpg"
        
@@ -55,6 +60,7 @@ export const data = [
     "id": "7",
     "name": "GENTLEMAN RESEVE PRIVÉE EDP 100 ML",
     "marca":"GIVENCHY",
+    "categoria":"perfumehombre",
     "price":"100.000",
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/mtools/300x300/catalog/product//1/4/142623-a-gentleman-reserve-priv_e-edp-100ml.jpg"
     },
@@ -62,6 +68,7 @@ export const data = [
     "id": "8",
     "name": "ONE MILLION MEN EDT 100 ML",
     "marca":"ONE MILLION",
+    "categoria":"perfumehombre",
     "price":"100.000",
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/mtools/300x300/catalog/product//8/9/89282-a-one-million-men-edt-100ml-.jpg"
     },
@@ -69,6 +76,7 @@ export const data = [
     "id": "9",
     "name": "HOMME NIGHT TIME MEN EDT 50 ML",
     "marca":"AZZARO",
+    "categoria":"perfumehombre",
     "price":"120.000",
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/mtools/300x300/catalog/product//1/0/104884-a-homme-night-time-men-edt-50ml.jpg"
     },
@@ -76,6 +84,7 @@ export const data = [
     "id": "10",
     "name": "SAUVAGE EDP 200 ML",
     "price":"100.000",
+    "categoria":"perfumehombre",
     "marca":"DIOR",
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/mtools/300x300/catalog/product//1/2/126844a.jpg"
     },
@@ -83,6 +92,7 @@ export const data = [
     "id": "11",
     "name": "JAGUAR MEN EVOLUTION EDT 100 ML",
     "price":"13.600",
+    "categoria":"perfumehombre",
     "marca":"JAGUAR",
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/mtools/300x300/catalog/product//F/M/FM22382BI26680_RV120725_SZ6.png"
     },
@@ -90,6 +100,7 @@ export const data = [
     "id": "12",
     "name": "JAGUAR PACE MEN EDT 100 ML",
     "price":"14.500",
+    "categoria":"perfumehombre",
     "marca":"JAGUAR",
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/mtools/300x300/catalog/product//F/M/FM20969BI25480_RV119276_SZ6.png"
     },
@@ -98,6 +109,7 @@ export const data = [
     "name": "EAU DE RUBYLIPS EDT 100ML",
     "price":"9.050",
     "marca":"SALVADOR DALI",
+    "categoria":"perfumemujer",
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/12f58ba0b5ccdae4c7a04d12241535d5/p/s/ps142113-a.jpg"
     },
     {
@@ -105,6 +117,7 @@ export const data = [
     "name": "BENTLEY FOR MEN EDT 100 ML",
     "price":"30.000",
     "marca":"BENTLEY",
+    "categoria":"perfumehombre",
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/mtools/300x300/catalog/product//1/1/115187-a-bentley-for-men-edt-100ml.jpg"
     },
     {
@@ -112,12 +125,14 @@ export const data = [
     "name": "SUNFLOWERS SUNRISE EDT 100ML",
     "price":"12.863",
     "marca":"ELIZABETH ARDEN",
+    "categoria":"perfumemujer",
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/1/4/142071-a-sunflowers-sunrise-edt-100ml.jpg"    },
     {
     "id": "15",
     "name": "CLOSER SPECIAL EDITION EDT",
     "price":"6.000",
     "marca":"PORTSAID",
+    "categoria":"perfumemujer",
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/12f58ba0b5ccdae4c7a04d12241535d5/1/4/141928-a-closer-special-edition-edp-100ml_1.jpg"  
     },
    {
@@ -125,6 +140,7 @@ export const data = [
     "name": "ETERNITY NOW MAN EDT 30 ML",
     "price":"18.190",
     "marca":"CLAVIN KLEIN",
+    "categoria":"perfumehombre",
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/mtools/300x300/catalog/product//1/0/109730_2.jpg"
    },
     {
@@ -132,6 +148,7 @@ export const data = [
     "name": "CAPTAIN MOLYNEUX EDT 30 ML",
     "price":"3.850",
     "marca":"MOLYNEUX",
+    "categoria":"perfumehombre",
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/mtools/300x300/catalog/product//1/4/141117-kate_spade_new_york_edp_1.jpg"
     },
     {
@@ -139,6 +156,7 @@ export const data = [
     "name": "BENTLEY FOR MEN INTENSE EDP 100ML",
     "price":"32.000",
     "marca":"CLAVIN KLEIN",
+    "categoria":"perfumehombre",
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/12f58ba0b5ccdae4c7a04d12241535d5/1/1/115189-a.jpg"
     },
     {
@@ -146,6 +164,7 @@ export const data = [
     "name": "AZURE EDT 100 ML",
     "price":"30.000",
     "marca":"BENTLEY",
+    "categoria":"perfumehombre",
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/12f58ba0b5ccdae4c7a04d12241535d5/1/1/115192_a_1_1.jpg"
     },
     {
@@ -153,6 +172,7 @@ export const data = [
     "name": "BENTLEY FOR MEN EDT 100ML",
     "price":"30.000",
     "marca":"BENTLEY",
+    "categoria":"perfumehombre",
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/12f58ba0b5ccdae4c7a04d12241535d5/1/1/115187-a-bentley-for-men-edt-100ml_1.jpg"
     },
     {
@@ -160,7 +180,7 @@ export const data = [
     "name": "MY WAY INTENSE EDP 90ML",
     "price":"39.200",
     "marca":"GIORGIO ARMANI",
-    "categoria":"perfume-mujer",
+    "categoria":"perfumemujer",
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/d7c384551f5371795a81d64f480f8258/1/4/144105-a-my-way-intense-edp-90ml_2.jpg"
     },
     {
@@ -168,7 +188,7 @@ export const data = [
     "name": "SUNFLOWERS EDT 30ML",
     "price":"5.512",
     "marca":"ELILZABETH ARDEN",
-    "categoria": "perfume-mujer",
+    "categoria": "perfumemujer",
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/d7c384551f5371795a81d64f480f8258/r/v/rv89329-b.jpg",
     },
     {
@@ -176,7 +196,7 @@ export const data = [
     "name": "DREAM EDT 80ML",
     "price":"3.725",
     "marca":"SHAKIRA",
-    "categoria": "perfume-mujer",
+    "categoria": "perfumemujer",
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/d7c384551f5371795a81d64f480f8258/1/2/123506-a-dream-edt-50ml.jpg"
 },
 {
@@ -184,7 +204,7 @@ export const data = [
 "name": "FANTASY FINE FRAGANCE MIST 236ML",
 "price":"5.490",
 "marca":"BRITNEY SPEARS",
-"categoria": "perfume-mujer",
+"categoria": "perfumemujer",
 "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/d7c384551f5371795a81d64f480f8258/r/p/rp120832.jpg"
     
 },
@@ -193,7 +213,7 @@ export const data = [
 "name": "PAULA EDT 100ML",
 "price":"5.579",
 "marca":"PAULA CAHEN D ANVERS",
-"categoria": "perfume-mujer",
+"categoria": "perfumemujer",
 "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/d7c384551f5371795a81d64f480f8258/5/3/53237-a-paula-edt-100ml.jpg"
 },
 {
@@ -364,7 +384,7 @@ export const data = [
 "name": "SEMI DI LINO MOISTURE NUTRITIVE SHAMPOO 250ml",
 "price":"5.464",
 "marca":"ALFAPARF",
-"categoria": "shampoo",
+"categoria": "capilar",
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/P/R/PR29501BI19769_PS130559_SEMI_DI_LINO_DIAMOND_ILLUMATING_CONDITIONER_250ML_SZ1.png"
 },
 
@@ -373,14 +393,14 @@ export const data = [
 "name": "SHAMPOO ALTA NUTRICIÓN ARGÁN 300ML",
 "price":"2.010",
 "marca":"LA PUISSANCE",
-"categoria": "shampoo",
+"categoria": "capilar",
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/4/144692-a-shampoo-alta-nutricion-arg_n-y-_cido-hialur_nico-300ml.jpg"
 },{
     "id": "48",
 "name": "SHAMPOO COCONUT OIL 300ML",
 "price":"1.990",
 "marca":"LA PUISSANCE",
-"categoria": "shampoo",
+"categoria": "capilar",
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/4/144698-a-shampoo-coconut-oil-300ml.jpg"
 },
 
@@ -389,7 +409,7 @@ export const data = [
 "name": "SEMI DI LINO VOLUMIZING LOW SHAMPOO 1000ml",
 "price":"9.990",
 "marca":"ALFAPARF",
-"categoria": "shampoo",
+"categoria": "capilar",
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/p/s/ps131737-a.jpg"
 },
 {
@@ -397,7 +417,7 @@ export const data = [
 "name": "MÁSCARA MATIZADORA SILVER 250ML",
 "price":"2.360",
 "marca":"LA PUISSANCE",
-"categoria": "mascara",
+"categoria": "maquillaje",
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/4/144697-a-mascara-matizadora-silver-250ml.jpg"
 },
 {
@@ -405,7 +425,7 @@ export const data = [
 "name": "MÁSCARA QUERATINA HIDROLIZADA 250ML",
 "price":"1.630",
 "marca":"LA PUISSANCE",
-"categoria": "mascara",
+"categoria": "maquillaje",
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/4/144691-a-mascara-queratina-hidrolizada-250ml.jpg"
 },
 {
@@ -413,7 +433,7 @@ export const data = [
 "name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
 "price":"7.072",
 "marca":"ALFAPARF",
-"categoria": "mascara",
+"categoria": "maquillaje",
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/8/8/88498-a-semi-di-lino-diamond-illuminating-mask-200ml.jpg"
 },
 

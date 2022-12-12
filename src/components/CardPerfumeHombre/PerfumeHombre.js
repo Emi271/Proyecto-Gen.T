@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 import CardHeader from 'react-bootstrap/esm/CardHeader';
 import { data } from '../assets/db/data';
 
-function CardMaquillaje() {
+function CardPerfHombre() {
   const [products, setProducts, categoria] = useState([])
     
    useEffect(() => {
@@ -20,20 +20,20 @@ function CardMaquillaje() {
   
  
  
-   const maquillaje = data.filter(x => x.categoria ==='maquillaje')
-   console.log(maquillaje);
+   const perfumehombre = data.filter(x => x.categoria ==='perfumehombre')
+   console.log(perfumehombre);
  return (
      <>
        <ShopContext.Consumer>
          {context => (
            <>
-             <h3>Productos de maquillaje</h3>
+             <h3>Fragancias de hombres</h3>
              <br></br>
              <div>Filtros de búsqueda</div>
  
              <div className='grid'>
             
-               {context.products.filter(x => x.categoria ==='maquillaje').map((p) => {
+               {context.products.filter(x => x.categoria ==='perfumehombre').map((p) => {
                  return (<Card 
                    style={{ width: '18rem' }}>
                      <Link to={'/item/${p.id}'}>
@@ -60,4 +60,4 @@ function CardMaquillaje() {
    )
  }
   
-export default CardMaquillaje
+export default CardPerfHombre
