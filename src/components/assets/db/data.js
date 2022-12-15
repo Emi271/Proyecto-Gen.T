@@ -113,7 +113,7 @@ export const data = [
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/12f58ba0b5ccdae4c7a04d12241535d5/p/s/ps142113-a.jpg"
     },
     {
-    "id": "13",
+    "id": "14",
     "name": "BENTLEY FOR MEN EDT 100 ML",
     "price":"30.000",
     "marca":"BENTLEY",
@@ -121,14 +121,14 @@ export const data = [
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/mtools/300x300/catalog/product//1/1/115187-a-bentley-for-men-edt-100ml.jpg"
     },
     {
-    "id": "14",
+    "id": "15",
     "name": "SUNFLOWERS SUNRISE EDT 100ML",
     "price":"12.863",
     "marca":"ELIZABETH ARDEN",
     "categoria":"perfumemujer",
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/1/4/142071-a-sunflowers-sunrise-edt-100ml.jpg"    },
     {
-    "id": "15",
+    "id": "16",
     "name": "CLOSER SPECIAL EDITION EDT",
     "price":"6.000",
     "marca":"PORTSAID",
@@ -136,7 +136,7 @@ export const data = [
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/12f58ba0b5ccdae4c7a04d12241535d5/1/4/141928-a-closer-special-edition-edp-100ml_1.jpg"  
     },
    {
-    "id": "16",
+    "id": "17",
     "name": "ETERNITY NOW MAN EDT 30 ML",
     "price":"18.190",
     "marca":"CLAVIN KLEIN",
@@ -144,7 +144,7 @@ export const data = [
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/mtools/300x300/catalog/product//1/0/109730_2.jpg"
    },
     {
-    "id": "17",
+    "id": "18",
     "name": "CAPTAIN MOLYNEUX EDT 30 ML",
     "price":"3.850",
     "marca":"MOLYNEUX",
@@ -152,7 +152,7 @@ export const data = [
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/mtools/300x300/catalog/product//1/4/141117-kate_spade_new_york_edp_1.jpg"
     },
     {
-    "id": "18",
+    "id": "19",
     "name": "BENTLEY FOR MEN INTENSE EDP 100ML",
     "price":"32.000",
     "marca":"CLAVIN KLEIN",
@@ -160,7 +160,7 @@ export const data = [
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/12f58ba0b5ccdae4c7a04d12241535d5/1/1/115189-a.jpg"
     },
     {
-    "id": "19",
+    "id": "20",
     "name": "AZURE EDT 100 ML",
     "price":"30.000",
     "marca":"BENTLEY",
@@ -168,7 +168,7 @@ export const data = [
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/12f58ba0b5ccdae4c7a04d12241535d5/1/1/115192_a_1_1.jpg"
     },
     {
-    "id": "20",
+    "id": "21",
     "name": "BENTLEY FOR MEN EDT 100ML",
     "price":"30.000",
     "marca":"BENTLEY",
@@ -176,7 +176,7 @@ export const data = [
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/12f58ba0b5ccdae4c7a04d12241535d5/1/1/115187-a-bentley-for-men-edt-100ml_1.jpg"
     },
     {
-    "id": "21",
+    "id": "22",
     "name": "MY WAY INTENSE EDP 90ML",
     "price":"39.200",
     "marca":"GIORGIO ARMANI",
@@ -184,7 +184,7 @@ export const data = [
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/d7c384551f5371795a81d64f480f8258/1/4/144105-a-my-way-intense-edp-90ml_2.jpg"
     },
     {
-    "id": "22",
+    "id": "23",
     "name": "SUNFLOWERS EDT 30ML",
     "price":"5.512",
     "marca":"ELILZABETH ARDEN",
@@ -192,7 +192,7 @@ export const data = [
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/d7c384551f5371795a81d64f480f8258/r/v/rv89329-b.jpg",
     },
     {
-        "id": "23",
+        "id": "24",
     "name": "DREAM EDT 80ML",
     "price":"3.725",
     "marca":"SHAKIRA",
@@ -200,7 +200,7 @@ export const data = [
     "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/d7c384551f5371795a81d64f480f8258/1/2/123506-a-dream-edt-50ml.jpg"
 },
 {
-    "id": "24",
+    "id": "25",
 "name": "FANTASY FINE FRAGANCE MIST 236ML",
 "price":"5.490",
 "marca":"BRITNEY SPEARS",
@@ -209,7 +209,7 @@ export const data = [
     
 },
 {
-    "id": "25",
+    "id": "26",
 "name": "PAULA EDT 100ML",
 "price":"5.579",
 "marca":"PAULA CAHEN D ANVERS",
@@ -217,7 +217,7 @@ export const data = [
 "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/d7c384551f5371795a81d64f480f8258/5/3/53237-a-paula-edt-100ml.jpg"
 },
 {
-    "id": "26",
+    "id": "27",
 "name": "LE ROUGE SCULPT 5 ROSE",
 "price":"6.360",
 "marca":"GIVENCHY",
@@ -225,7 +225,7 @@ export const data = [
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/d7c384551f5371795a81d64f480f8258/1/2/121226-a-le-rouge-sculpt-5-rose.jpg"
 },
 {
-    "id": "27",
+    "id": "28",
 "name": "QUICKLINER FOR LIPS INTENSE 08 COSMO",
 "price":"7.190",
 "marca":"CLINIQUE",
@@ -233,7 +233,7 @@ export const data = [
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/2/120044.jpg"
 },
 {
-    "id": "28",
+    "id": "29",
 "name": "ENCRE INTERDIT N4 PURPLE TAG",
 "price":"8.200",
 "marca":"GIVENCHY",
@@ -241,7 +241,7 @@ export const data = [
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/P/R/PR24871BI24391_RP127200_ENCRE_INTERDITE_SZ1.jpg"
 },
 {
-    "id": "29",
+    "id": "30",
 "name": "KISS LIPSTICK 369 ROSY BOOP",
 "price":"7.500",
 "marca":"GUERLAIN",
@@ -249,7 +249,7 @@ export const data = [
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/d7c384551f5371795a81d64f480f8258/1/3/130783-a-kiss_kiss_lipstick_369_rosy_boop_1.jpg"
 },
 {
-    "id": "30",
+    "id": "31",
 "name": "THE TRHEE PALETTE 4 ROSA BERRY",
 "price":"4.490",
 "marca":"CHER",
@@ -257,7 +257,7 @@ export const data = [
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/r/v/rv122734.jpg"
 },
 {
-    "id": "31",
+    "id": "32",
 "name": "THE TRHEE PALETTE 2 WARM VAINILLA",
 "price":"4.490",
 "marca":"CHER",
@@ -265,7 +265,7 @@ export const data = [
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/F/M/FM17378BI23250_RV122732_SZ6.jpg"
 },
 {
-    "id": "32",
+    "id": "33",
 "name": "EXTREME PRO PALETTE REFILL - ILLUMINAUGHTY",
 "price":"4.380",
 "marca":"MAC",
@@ -273,7 +273,7 @@ export const data = [
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/d7c384551f5371795a81d64f480f8258/1/4/141448a.jpg"
 },
 {
-    "id": "33",
+    "id": "34",
 "name": "MÁSCARA DE PESTAÑAS WATERPROOF BLACK 6,4ML",
 "price":"4.694",
 "marca":"L'OREAL PARIS",
@@ -281,7 +281,7 @@ export const data = [
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/3/139062_a_1_1.jpg"
 },
 {
-    "id": "34",
+    "id": "35",
 "name": "VOLUMINOUS LASH PARADISE MÁSCARA DE PESTAÑAS",
 "price":"4.694",
 "marca":"L'OREAL PARIS",
@@ -289,7 +289,7 @@ export const data = [
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/3/139058_a_2.jpg"
 },
 {
-    "id": "35",
+    "id": "36",
 "name": "MAGNIFEYES EYESHADOW PALETTE 003",
 "price":"4.400",
 "marca":"RIMMEL",
@@ -297,7 +297,7 @@ export const data = [
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/2/121487-a-magnifeyes-eyeshadow-palette-003.jpg"
 },
 {
-    "id": "36",
+    "id": "37",
 "name": "EXTRA DIMENSION BLUSH ROSY CHEEKS",
 "price":"14.250",
 "marca":"MAC",
@@ -305,7 +305,7 @@ export const data = [
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/3/136440-a-extra-dimension-blush-rosy-cheeks.jpg"
 },
 {
-    "id": "37",
+    "id": "38",
 "name": "TENDER BLUSH - 02 CHIC PINK",
 "price":"7.865",
 "marca":"GUERLAIN",
@@ -314,7 +314,7 @@ export const data = [
 },
 
 {
-    "id": "38",
+    "id": "39",
 "name": "THE COMPACT 1- CLARO",
 "price":"4.490",
 "marca":"CHER",
@@ -322,7 +322,7 @@ export const data = [
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/d7c384551f5371795a81d64f480f8258/F/M/FM17403BI22527_RV122781_SZ6.jpg"
 },
 {
-    "id": "39",
+    "id": "40",
 "name": "MIRACLE GEL 3.0 TOP COAT SHINY",
 "price":"2.482",
 "marca":"SALLY HANSEN",
@@ -330,7 +330,7 @@ export const data = [
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/3/135812_a.jpg"
 },
 {
-    "id": "40",
+    "id": "41",
 "name": "COLOR THERAPY 290 PAMPERED IN PINK",
 "price":"1.883",
 "marca":"SALLY HANSEN",
@@ -338,7 +338,7 @@ export const data = [
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/d7c384551f5371795a81d64f480f8258/F/M/FM17207BI23054_RV121047_SZ6.jpg"
 },
 {
-    "id": "41",
+    "id": "42",
 "name": "ESMALTE NATURAL T10 BASE COAT",
 "price":"2.133",
 "marca":"OPI",
@@ -347,7 +347,7 @@ export const data = [
 },
 
 {
-    "id": "42",
+    "id": "43",
 "name": "MIRACLE GEL 3.0 NUDES TUTU THE BALLET",
 "price":"2.345",
 "marca":"SALLY HANSEN",
@@ -355,7 +355,7 @@ export const data = [
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/P/R/PR33759BI28353_RP136797_MIRACLE_GEL_3_0_NUDES_SZ1.jpg"
 },
 {
-    "id": "43",
+    "id": "44",
 "name": "NTT35 MATTE TOP COAT",
 "price":"2.133",
 "marca":"OPI",
@@ -363,7 +363,7 @@ export const data = [
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/1/116080-a.jpg"
 },
 {
-    "id": "44",
+    "id": "45",
 "name": "ESMALTE SUNKISSED CORAL",
 "price":"1.190",
 "marca":"CHER",
@@ -372,7 +372,7 @@ export const data = [
 },
 
 {
-    "id": "45",
+    "id": "46",
 "name": "ESMALTE DE UÑAS MINI COLORS 5ML 320 ROSEE",
 "price":"1.560",
 "marca":"MAVALA",
@@ -380,7 +380,7 @@ export const data = [
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/d7c384551f5371795a81d64f480f8258/1/3/134898-a-esmalte-de-u_as-mini-colors-5ml-320-rosee.jpg"
 },
 {
-    "id": "46",
+    "id": "47",
 "name": "SEMI DI LINO MOISTURE NUTRITIVE SHAMPOO 250ml",
 "price":"5.464",
 "marca":"ALFAPARF",
@@ -389,14 +389,14 @@ export const data = [
 },
 
 {
-    "id": "47",
+    "id": "48",
 "name": "SHAMPOO ALTA NUTRICIÓN ARGÁN 300ML",
 "price":"2.010",
 "marca":"LA PUISSANCE",
 "categoria": "capilar",
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/4/144692-a-shampoo-alta-nutricion-arg_n-y-_cido-hialur_nico-300ml.jpg"
 },{
-    "id": "48",
+    "id": "49",
 "name": "SHAMPOO COCONUT OIL 300ML",
 "price":"1.990",
 "marca":"LA PUISSANCE",
@@ -405,7 +405,7 @@ export const data = [
 },
 
 {
-    "id": "49",
+    "id": "50",
 "name": "SEMI DI LINO VOLUMIZING LOW SHAMPOO 1000ml",
 "price":"9.990",
 "marca":"ALFAPARF",
@@ -413,7 +413,7 @@ export const data = [
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/p/s/ps131737-a.jpg"
 },
 {
-    "id": "50",
+    "id": "51",
 "name": "MÁSCARA MATIZADORA SILVER 250ML",
 "price":"2.360",
 "marca":"LA PUISSANCE",
@@ -421,21 +421,233 @@ export const data = [
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/4/144697-a-mascara-matizadora-silver-250ml.jpg"
 },
 {
-    "id": "51",
-"name": "MÁSCARA QUERATINA HIDROLIZADA 250ML",
+    "id": "52",
+"name": "MÁCARA QUERATINA HIDROLIZADA 250ML",
 "price":"1.630",
 "marca":"LA PUISSANCE",
 "categoria": "maquillaje",
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/4/144691-a-mascara-queratina-hidrolizada-250ml.jpg"
 },
 {
-    "id": "52",
+    "id": "53",
 "name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
 "price":"7.072",
 "marca":"ALFAPARF",
 "categoria": "maquillaje",
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/8/8/88498-a-semi-di-lino-diamond-illuminating-mask-200ml.jpg"
 },
+/* {
+"id": "54",
+"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
+"price":"7.072",
+"marca":"ALFAPARF",
+"categoria": "maquillaje",
+"image":""
+},
+{
+"id": "52",
+"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
+"price":"7.072",
+"marca":"ALFAPARF",
+"categoria": "maquillaje",
+"image":""
+},
+{
+"id": "52",
+"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
+"price":"7.072",
+"marca":"ALFAPARF",
+"categoria": "maquillaje",
+"image":""
+},
+{
+"id": "52",
+"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
+"price":"7.072",
+"marca":"ALFAPARF",
+"categoria": "maquillaje",
+"image":""
+},
+
+{
+    "id": "52",
+    "name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
+    "price":"7.072",
+    "marca":"ALFAPARF",
+    "categoria": "maquillaje",
+    "image":""
+    },
+    
+    
+    {
+        "id": "52",
+        "name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
+        "price":"7.072",
+        "marca":"ALFAPARF",
+        "categoria": "maquillaje",
+        "image":""
+        },
+        
+        
+
+        {
+"id": "52",
+"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
+"price":"7.072",
+"marca":"ALFAPARF",
+"categoria": "maquillaje",
+"image":""
+},
+
+
+{
+"id": "52",
+"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
+"price":"7.072",
+"marca":"ALFAPARF",
+"categoria": "maquillaje",
+"image":""
+},
+
+
+{
+"id": "52",
+"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
+"price":"7.072",
+"marca":"ALFAPARF",
+"categoria": "maquillaje",
+"image":""
+},
+
+
+{
+"id": "52",
+"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
+"price":"7.072",
+"marca":"ALFAPARF",
+"categoria": "maquillaje",
+"image":""
+},
+
+
+{
+"id": "52",
+"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
+"price":"7.072",
+"marca":"ALFAPARF",
+"categoria": "maquillaje",
+"image":""
+},
+
+
+{
+"id": "52",
+"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
+"price":"7.072",
+"marca":"ALFAPARF",
+"categoria": "maquillaje",
+"image":""
+},
+
+{
+    "id": "52",
+    "name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
+    "price":"7.072",
+    "marca":"ALFAPARF",
+    "categoria": "maquillaje",
+    "image":""
+    },
+    
+    
+    {
+"id": "52",
+"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
+"price":"7.072",
+"marca":"ALFAPARF",
+"categoria": "maquillaje",
+"image":""
+},
+
+
+
+{
+"id": "52",
+"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
+"price":"7.072",
+"marca":"ALFAPARF",
+"categoria": "maquillaje",
+"image":""
+},
+
+
+{
+"id": "52",
+"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
+"price":"7.072",
+"marca":"ALFAPARF",
+"categoria": "maquillaje",
+"image":""
+},
+
+{
+    "id": "52",
+    "name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
+    "price":"7.072",
+    "marca":"ALFAPARF",
+    "categoria": "maquillaje",
+    "image":""
+    },
+    
+    
+    
+    {
+    "id": "52",
+    "name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
+    "price":"7.072",
+    "marca":"ALFAPARF",
+    "categoria": "maquillaje",
+    "image":""
+    },
+    
+    
+    {
+    "id": "52",
+    "name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
+    "price":"7.072",
+    "marca":"ALFAPARF",
+    "categoria": "maquillaje",
+    "image":""
+    },
+    {
+"id": "52",
+"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
+"price":"7.072",
+"marca":"ALFAPARF",
+"categoria": "maquillaje",
+"image":""
+},
+
+
+
+{
+"id": "52",
+"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
+"price":"7.072",
+"marca":"ALFAPARF",
+"categoria": "maquillaje",
+"image":""
+},
+
+
+{
+"id": "52",
+"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
+"price":"7.072",
+"marca":"ALFAPARF",
+"categoria": "maquillaje",
+"image":""
+},
+     */
 
 ]
 
