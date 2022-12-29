@@ -35,6 +35,8 @@ function Navegation () {
         <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto">
         <Nav.Link href="/Maquillaje">Maquillaje</Nav.Link>
+        <Nav.Link href="/Accesorios">Accesorios</Nav.Link>
+        <Nav.Link href="/Capilar">Capilar</Nav.Link>
         <NavDropdown title="Fragancias" id="collasible-nav-dropdown">
               <NavDropdown.Item href="/productos">Fragancias Femeninas</NavDropdown.Item>
               <NavDropdown.Item href="/FraganciasHombres">Fragancias Masculinas</NavDropdown.Item>

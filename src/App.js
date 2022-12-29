@@ -6,6 +6,8 @@ import Navegation from './components/Navegation/Nategation';
 import CardProduct from './components/Card/Card';
 import CardMaquillaje from './components/CardMaquillaje/CardMaquillaje';
 import CardPerfHombre from './components/CardPerfumeHombre/PerfumeHombre';
+import CardAccesorios from './components/CardAccesorios/CardAccesorios';
+import CardCapilar from './components/CardCapilar/CardCapilar';
 import Contact from './components/Contact/Contact';
 import Contact2 from './components/Contact2/Contact2';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -14,7 +16,8 @@ import store from "./store/index";
 import Item from './components/Item/Item';
 import Footer from './components/Footer/Footer';
 import Terms from './components/Terms/Terms';
-
+import Politicas from './components/politicas/politicas';
+import Envio from './components/Envio/Envio';
 
 function App() {
   return (
@@ -33,6 +36,10 @@ function App() {
         <Route path="/TerminosyCondiciones" element={<Terms />} />
         <Route path="/Maquillaje" element={<CardMaquillaje />} />
         <Route path="/FraganciasHombres" element={<CardPerfHombre />} />
+        <Route path="/Capilar" element={<CardCapilar />} />
+        <Route path="/Accesorios" element={<CardAccesorios />} />
+        <Route path="/politicasdevoluciones" element={<Politicas/>} />
+        <Route path="/envios" element={<Envio/>} />
       </Routes>
       <br></br>
       <Footer></Footer>

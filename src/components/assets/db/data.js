@@ -436,218 +436,340 @@ export const data = [
 "categoria": "maquillaje",
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/8/8/88498-a-semi-di-lino-diamond-illuminating-mask-200ml.jpg"
 },
-/* {
+ {
 "id": "54",
-"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
-"price":"7.072",
-"marca":"ALFAPARF",
-"categoria": "maquillaje",
-"image":""
+"name": "DAILY CONDITIONER",
+"price":"3819",
+"marca":"AMERICAN CREW",
+"categoria": "capilar",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/3/133209-a-daily-conditioner-250ml.jpg"
 },
 {
-"id": "52",
-"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
-"price":"7.072",
+"id": "55",
+"name": "VOLUMIZING MOUSSE CONDITIONER 200ML",
+"price":"6.107",
 "marca":"ALFAPARF",
-"categoria": "maquillaje",
-"image":""
+"categoria": "capilar",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/P/R/PR29534BI27623_PS131734_SEMI_DI_LINO_VOLUMIZING_MOUSSE_CONDITIONER_200ML_SZ1.jpg"
 },
 {
-"id": "52",
-"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
-"price":"7.072",
-"marca":"ALFAPARF",
-"categoria": "maquillaje",
-"image":""
+"id": "56",
+"name": "ALIEN GODDESS EDP 90ML + REGALO",
+"price":"43.560",
+"marca":"THIERRY MUGLER",
+"categoria": "perfumemujer",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/r/v/rv142083_56.png"
 },
 {
-"id": "52",
-"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
-"price":"7.072",
-"marca":"ALFAPARF",
-"categoria": "maquillaje",
-"image":""
+"id": "57",
+"name": "IRIS EDP 100ML + REGALO",
+"price":"7.990",
+"marca":"CHER",
+"categoria": "perfumemujer",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/40459617bc72f6a0f790f53ad0022f13/r/v/rv144595_1_2_3.png"
 },
 
 {
-    "id": "52",
-    "name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
-    "price":"7.072",
-    "marca":"ALFAPARF",
-    "categoria": "maquillaje",
-    "image":""
+    "id": "58",
+    "name": "DANCE MIDNIGHT MUSE 80ML",
+    "price":"4.640",
+    "marca":"SHAKIRA",
+    "categoria": "perfumemujer",
+    "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/4/143341-b-dance-midnight-muse-edt-80ml_2.jpg"
     },
     
     
     {
-        "id": "52",
-        "name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
-        "price":"7.072",
-        "marca":"ALFAPARF",
-        "categoria": "maquillaje",
-        "image":""
+        "id": "59",
+        "name": "CUBA AUTHENTIC HAPPY EDP 100ML",
+        "price":"7.790",
+        "marca":"CUBA",
+        "categoria": "perfumemujer",
+        "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/4/143384-a-cuba-authentic-happy-edp-100ml.jpg"
         },
         
         
 
         {
-"id": "52",
-"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
-"price":"7.072",
-"marca":"ALFAPARF",
-"categoria": "maquillaje",
-"image":""
+"id": "60",
+"name": "ARQUEADOR DE PESTAÑAS DORADO",
+"price":"1.965",
+"marca":"FASCINO",
+"categoria": "accesorios",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/p/s/ps103099.jpg"
 },
 
 
 {
-"id": "52",
-"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
-"price":"7.072",
-"marca":"ALFAPARF",
-"categoria": "maquillaje",
-"image":""
+"id": "61",
+"name": "PINZA DE DEPILAR RECTA",
+"price":"1.150",
+"marca":"FASCINO",
+"categoria": "accesorios",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/3/136286.jpg"
 },
 
 
 {
-"id": "52",
-"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
-"price":"7.072",
-"marca":"ALFAPARF",
-"categoria": "maquillaje",
-"image":""
+"id": "62",
+"name": "PINZA DE DEPILAR DIAGONAL",
+"price":"1.150",
+"marca":"FASCINO",
+"categoria": "accesorios",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/3/136285.jpg"
+} ,
+
+
+{
+"id": "63",
+"name": "PINCEL CORRECTOR ERGONOMICO",
+"price":"1.650",
+"marca":"FASCINO",
+"categoria": "accesorios",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/p/s/ps131320.jpg"
 },
 
 
 {
-"id": "52",
-"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
-"price":"7.072",
-"marca":"ALFAPARF",
-"categoria": "maquillaje",
-"image":""
+"id": "64",
+"name": "MAKE UP BROCHAS SET X8 PINK GOLD",
+"price":"10.190",
+"marca":"FASCINO",
+"categoria": "accesorios",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/p/s/ps133469.jpg"
 },
 
 
 {
-"id": "52",
-"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
-"price":"7.072",
-"marca":"ALFAPARF",
-"categoria": "maquillaje",
-"image":""
-},
-
-
-{
-"id": "52",
-"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
-"price":"7.072",
-"marca":"ALFAPARF",
-"categoria": "maquillaje",
-"image":""
+"id": "65",
+"name": "BROCHAS MAKE UP PROFESSIONAL + ESTUCHE",
+"price":"19.450",
+"marca":"FASCINO",
+"categoria": "accesorios",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/3/135979-a.jpg"
 },
 
 {
-    "id": "52",
-    "name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
-    "price":"7.072",
-    "marca":"ALFAPARF",
-    "categoria": "maquillaje",
-    "image":""
+    "id": "66",
+    "name": "BROCHAS DOBLE FUNCION SET",
+    "price":"7.960",
+    "marca":"FASCINO",
+    "categoria": "accesorios",
+    "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/p/s/ps108582-a.jpg"
     },
     
     
     {
-"id": "52",
-"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
-"price":"7.072",
-"marca":"ALFAPARF",
-"categoria": "maquillaje",
-"image":""
+"id": "67",
+"name": "BROCHAS MARBLE HOT EDITION 6 UNIDADES SET",
+"price":"8.990",
+"marca":"FASCINO",
+"categoria": "accesorios",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/4/142688-a-brochas-marble-hot-edition-6-unidades-set.jpg"
 },
 
 
 
 {
-"id": "52",
-"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
-"price":"7.072",
-"marca":"ALFAPARF",
-"categoria": "maquillaje",
-"image":""
+"id": "68",
+"name": "BROCHA MAQUILLAJE LIQUIDO FIBRA ÓPTICA ",
+"price":"2.890",
+"marca":"FASCINO",
+"categoria": "accesorios",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/p/s/ps106467.jpg"
 },
 
 
 {
-"id": "52",
-"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
-"price":"7.072",
-"marca":"ALFAPARF",
-"categoria": "maquillaje",
-"image":""
+"id": "69",
+"name": "MAKE UP BROCHAS TOOLS TREASURE SET",
+"price":"6.890",
+"marca":"FASCINO",
+"categoria": "accesorios",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/p/s/ps128669.jpg"
 },
 
 {
-    "id": "52",
-    "name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
-    "price":"7.072",
-    "marca":"ALFAPARF",
-    "categoria": "maquillaje",
-    "image":""
+    "id": "70",
+    "name": "MAKE UP BROCHAS TOOLS TREASURE SET",
+    "price":"6.890",
+    "marca":"FASCINO",
+    "categoria": "accesorios",
+    "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/p/s/ps128669.jpg"
     },
     
     
     
     {
-    "id": "52",
-    "name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
-    "price":"7.072",
-    "marca":"ALFAPARF",
-    "categoria": "maquillaje",
-    "image":""
+    "id": "71",
+    "name": "BROCHA DE MAQUILLAJE",
+    "price":"5.990",
+    "marca":"LANCOME",
+    "categoria": "accesorios",
+    "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/4/140152a.jpg"
     },
     
     
     {
-    "id": "52",
-    "name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
-    "price":"7.072",
-    "marca":"ALFAPARF",
-    "categoria": "maquillaje",
-    "image":""
+    "id": "72",
+    "name": "ESPONJA FACIAL ROSA FRANCES",
+    "price":"2.199",
+    "marca":"KONJAC",
+    "categoria": "accesorios",
+    "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/3/137462.jpg"
     },
     {
-"id": "52",
-"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
-"price":"7.072",
-"marca":"ALFAPARF",
-"categoria": "maquillaje",
-"image":""
+"id": "73",
+"name": "ESPONJA FACIAL ARCILLA ROJA FRANCESA",
+"price":"2.199",
+"marca":"KONJAC",
+"categoria": "accesorios",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/3/137459-a-esponja-facial-con-fina-arcilla-roja-francesa-natural-ros_cea.jpg"
 },
 
 
 
 {
-"id": "52",
-"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
-"price":"7.072",
-"marca":"ALFAPARF",
-"categoria": "maquillaje",
-"image":""
+"id": "74",
+"name": "SACAPUNTA DOBLE PARA MAQUILLAJE",
+"price":"1.245",
+"marca":"FASCINO",
+"categoria": "accesorios",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/p/s/ps103093.jpg"
 },
 
 
 {
-"id": "52",
-"name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
-"price":"7.072",
-"marca":"ALFAPARF",
-"categoria": "maquillaje",
-"image":""
-},
-     */
+"id": "75",
+"name": "ESPONJA CORPORAL BLANCA 6 OLAS",
+"price":"2.599",
+"marca":"KONJAC",
+"categoria": "accesorios",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/2/1234567891057.jpg"
+}, 
+
+,
+
+
+{
+"id": "75",
+"name": "ESPONJA CORPORAL BLANCA 6 OLAS",
+"price":"2.599",
+"marca":"KONJAC",
+"categoria": "accesorios",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/2/1234567891057.jpg"
+}, 
+
+,
+
+
+{
+"id": "75",
+"name": "ESPONJA CORPORAL BLANCA 6 OLAS",
+"price":"2.599",
+"marca":"KONJAC",
+"categoria": "accesorios",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/2/1234567891057.jpg"
+}, 
+    
+,
+
+
+{
+"id": "75",
+"name": "ESPONJA CORPORAL BLANCA 6 OLAS",
+"price":"2.599",
+"marca":"KONJAC",
+"categoria": "accesorios",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/2/1234567891057.jpg"
+}, 
+    
+,
+
+
+{
+"id": "75",
+"name": "ESPONJA CORPORAL BLANCA 6 OLAS",
+"price":"2.599",
+"marca":"KONJAC",
+"categoria": "accesorios",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/2/1234567891057.jpg"
+}, 
+    
+,
+
+
+{
+"id": "76",
+"name": "LIMPIADOR FACIAL ESTIMULANTE ELECTRÓNICO",
+"price":"1.726",
+"marca":"KONJAC",
+"categoria": "accesorios",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/4/144813-a-limpiador-facial-estimulante-electronico.jpg"
+}, 
+    
+,
+
+
+{
+"id": "77",
+"name": "ENERGY ROLLER CUARZO ROSA",
+"price":"6.049",
+"marca":"COONY",
+"categoria": "accesorios",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/8/8/8809192707979_1.jpg"
+}, 
+    
+,
+
+
+{
+"id": "78",
+"name": "PIEZAS DE MANICURA CORAZÓN SET + ESMALTE DE REGALO",
+"price":"2.933",
+"marca":"FASCINO",
+"categoria": "accesorios",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/p/s/ps136289_8_8.png"
+}, 
+    
+,
+
+
+{
+"id": "79",
+"name": "ESPONJA FACIAL AMARILLA FRANCÉS",
+"price":"2.199",
+"marca":"KONJAC",
+"categoria": "accesorios",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/3/137463.jpg"
+}, 
+    
+,
+
+
+{
+"id": "80",
+"name": "ESFERA CRIOTERAPIA SNOW BALL",
+"price":"8.599",
+"marca":"KONJAC",
+"categoria": "accesorios",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/p/s/ps137494-a.jpg"
+}, 
+    
+,
+
+
+{
+"id": "81",
+"name": "MANICURA Y BELLEZA NAILS MANZANA SET + ESMALTE DE REGALO",
+"price":"3.173",
+"marca":"FASCINO",
+"categoria": "accesorios",
+"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/2/1234567891057.jpg"
+}, 
+    
+
+     
 
 ]
 

@@ -74,7 +74,9 @@ function Home() {
   */}
         </div>
         <br></br>
-           <h4 className='Texto1'>Nuestras últimas ofertas!!</h4>
+        <div>
+           <h4>
+        Nuestras últimas ofertas!!</h4></div>
            <div className='tarjetas'>
            <CardGroup>
            <Card style={{width: "auto", height: "260px"}}>

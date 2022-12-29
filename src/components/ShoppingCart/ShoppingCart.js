@@ -1,16 +1,14 @@
 import React from 'react'
 import { useSelector, useDispatch } from "react-redux";
-import { addToCart, clearCart, delFromCart } from "../Actions/ShoppingAcctions";
-import { useContext, useEffect  } from 'react'
+import { addToCart } from "../Actions/ShoppingAcctions";
 import Card from 'react-bootstrap/Card';
-import ShopContext from '../Context/ShopContext'
 import './ShoppingCart.css'
  
 const ShoppingCart = () => {
   const state = useSelector((state) => state);
   const dispatch = useDispatch();
 
-  const { products, cart } = state.shopping;
+  const { products } = state.shopping;
   return (
 <>
       <div className='cart' > 

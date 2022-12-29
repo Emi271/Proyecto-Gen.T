@@ -6,19 +6,21 @@ import Card from 'react-bootstrap/Card';
 
 function Item(){
     const { id } = useParams();
-    const [produc, setProduct] = useState();
+    const [product, setProduct] = useState();
  
-    useEffect(()=> {
+    console.log(product.id)
+     useEffect(()=> {
         getProductById(id);
     }, [])
  
     function getProductById (id){
         const item = data.find(x => x.id == id)
         if(item != null){setProduct(item)}
-    }
+    } 
+   
     return (
         <>
-        {produc ? ( 
+        { product.id ?  ( 
         
         
         <div>
@@ -36,7 +38,7 @@ function Item(){
                   </Card.Body>
                   </Card> */}
             <h2>Detalles</h2>
-        <p>{produc.name}</p>
+        <p>{product.name}</p>
         </div>
         ):
         (

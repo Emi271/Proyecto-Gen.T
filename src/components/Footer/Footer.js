@@ -8,10 +8,9 @@ export const Footer = () => {
       <CDBBox display="flex" flex="column" className="mx-auto py-0" style={{ width: '90%' }}>
         <CDBBox display="flex" justifyContent="between">
           <CDBBox alignSelf="center">
-            <a href="/" className="d-flex align-items-center p-0 text-dark">
-             {/*  <img alt="logo" src="logo" width="30px" /> */}
-              <span className="ml-0 h6 font-weight-bold">Contáctanos  !</span>
-            </a>
+          <p className="h5 mb-2" style={{ fontWeight: '600' }}>
+            Nuestras Redes
+            </p>
             <CDBBox className="mt-2" display="flex">
               <CDBBtn flat color="dark" className="p-2">
                 <CDBIcon fab icon="facebook-f" />
@@ -26,13 +25,14 @@ export const Footer = () => {
           </CDBBox>
           <CDBBox>
             <p className="h5 mb-2" style={{ fontWeight: '600' }}>
-            ¯\_(ツ)_/¯
+            Acerca de Emi're
             </p>
             <CDBBox display="flex" flex="column"  style={{ cursor: 'pointer' }}>
               <CDBFooterLink href="/">Nuestros locales</CDBFooterLink>
               <CDBFooterLink href="/">Métodos de pago</CDBFooterLink>
-              <CDBFooterLink href="/">Métodos de envío</CDBFooterLink>
-              <CDBFooterLink href="/">Política de cambios y devoluciones</CDBFooterLink>
+              <CDBFooterLink href="/envios">Métodos de envío</CDBFooterLink>
+              <CDBFooterLink href="/politicasdevoluciones">Política de cambios y devoluciones</CDBFooterLink>
+             <CDBFooterLink href="/TerminosyCondiciones">Terminos y Condiciones</CDBFooterLink>
             </CDBBox>
           </CDBBox>
           <CDBBox>
@@ -40,10 +40,8 @@ export const Footer = () => {
             no se como se va a llamar esto
             </p>
             <CDBBox display="flex" flex="column" style={{ cursor: 'pointer' }}>
-              <CDBFooterLink href="/TerminosyCondiciones">Terminos y Condiciones</CDBFooterLink>
-              <CDBFooterLink href="/">Validaciones Bancarias</CDBFooterLink>
               <CDBFooterLink href="/contacto">Suscríbete</CDBFooterLink>
-              <CDBFooterLink href="/">Para consultas y/o denuncias ingrese aquí</CDBFooterLink>
+             <a src="" > <CDBFooterLink href="/">Para consultas y/o denuncias ingrese aquí</CDBFooterLink></a>
             </CDBBox>
           </CDBBox>
         </CDBBox>
