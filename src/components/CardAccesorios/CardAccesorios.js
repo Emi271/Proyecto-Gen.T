@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react'
+import { addToCart } from '../Actions/ShoppingAcctions';
+import { useDispatch, useSelector } from 'react-redux';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import ShopContext from '../Context/ShopContext'
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import CardHeader from 'react-bootstrap/esm/CardHeader';
 import { data } from '../assets/db/data';
+
 
  
 function CardAccesorios() {
@@ -19,10 +22,13 @@ function CardAccesorios() {
   //   console.log(state)
   // }
  
-
+  
 
   const accesorios = data.filter(x => x.categoria ==='accesorios')
   console.log(accesorios);
+  const dispatch = useDispatch();
+  const state = useSelector((state) => state);
+  const { cart } = state.shopping;
 return (
     <>
       <ShopContext.Consumer>
@@ -37,17 +43,21 @@ return (
               {context.products.filter(x => x.categoria ==='accesorios').map((p) => {
                 return (<Card 
                   style={{ width: '18rem' }}>
-                    <Link to={'/item/${p.id}'}>
+                    <article key={p.id} >
+                    <Link to={`/CardAccesorios/${p.id}`}>
+
+                    
                     <Card.Img className='imgn' variant="top" src={p.image} />
                     </Link>
                     <Card.Body>
-                      <Card.Title className='tittle'>{p.name}</Card.Title>
+                      <Card.Title className='text-truncate'>{p.name}</Card.Title>
                       <CardHeader>{p.marca}</CardHeader>
                       <Card.Text>
                         {p.price}
                       </Card.Text>
-                      <Button onClick={() => context.addProductToCart(p)} variant="primary"><p>Comprar</p></Button>
+                      <Button onClick={() => dispatch(addToCart(p.id))} variant="primary"><p>Comprar</p></Button>
                     </Card.Body>
+                    </article>
                   </Card>
                   ) 
               })

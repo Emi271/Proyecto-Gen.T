@@ -1,28 +1,28 @@
 import React from "react"
-import imgn from '../assets/imgs/listita.jpg'
-
+import './Terms.css'
+import imgn from '../assets/imgs/portapapele.png'
 
 
 function Terms() {
 
     return (
-        <div className="caja">
+        <div className="cajita">
             <div>
                 <img src="https://d3cdlnm7te7ky2.cloudfront.net/media/wysiwyg/home/BC-TerminosyCondiciones_1.png"
                 className="w-100 d-block"></img>
                 <br></br>
                 <img src={imgn} className="imagen" ></img>
                 <br></br><br></br>
-            <h4>Bienvenid@s a Emi're</h4>
-<p>Por favor, tomese el tiempo y lea las siguientes condiciones
+            <h4 className="titulo">Bienvenid@s a Emi're</h4>
+<p className="parrafo">Por favor, tomese el tiempo y lea las siguientes condiciones
  que rigen el uso de la compra online a través de www.emire.com.ar</p>
         
 
 <br></br>
 
-<h5>1. ACEPTACIÓN Y CONOCIMIENTO DE LOS TÉRMINOS Y CONDICIONES</h5>
-
-<p>
+<h5 className="subtitulo">1. ACEPTACIÓN Y CONOCIMIENTO DE LOS TÉRMINOS Y CONDICIONES</h5>
+<div className="bar"></div>
+<p className="parrafo">
 Los presentes términos y condiciones son de carácter obligatorio
 se aplican a todas las actividades que realicen los usuarios a 
 través del sitio web www.emire.com.ar. 
@@ -32,10 +32,12 @@ Términos y Condiciones. Si usted no está de acuerdo con los Términos
 y Condiciones, deberá abstenerse de utilizar la aplicación
 web y/p los servicios ofrecidos por la misma.
 </p> 
+<div className="bar"></div>
     <br></br><br></br>
-    <h5>2. MODIFICACIÓN DE LOS TÉRMINOS Y CONDICIONES
+    <h5 className="subtitulo">2. MODIFICACIÓN DE LOS TÉRMINOS Y CONDICIONES
 </h5>
-    <p>
+<div className="bar"></div>
+    <p className="parrafo">
 Los presentes términos y condiciones podrán ser sustituidos o ser
 modificados en caulquier momento a nuestro exclusivo criterio, sin 
 necesidad de consentimiento de los Usuarios.
@@ -44,10 +46,11 @@ Los Usuarios son responsables de leer estos Términos y Condiciones
 cada vez que ingresen a la aplicación web a fin de verificar 
 la vigencia de los mismos y/o si se han producido modificaciones.
 </p>
-    
+<div className="bar"></div>   
     <br></br><br></br>
-    <h5>3. REGISTRACIÓN </h5>
-    <p>
+    <h5 className="subtitulo">3. REGISTRACIÓN </h5>
+    <div className="bar"></div>
+    <p className="parrafo">
     La registración de los Usuarios se realiza ingresando al Website,
      y no tiene costo alguno. Es obligatorio completar el formulario 
      en todos los campos con datos válidos y verdaderos, de manera
@@ -62,10 +65,12 @@ hacer click en la opción correspondiente e ingresar el e-mail
  que se proporciona al momento de la registración. Al finalizar,
   el sistema le enviará de manera confidencial a esa cuenta 
   su nombre de Usuario y la clave personal.
-<br></br><br></br>
 </p>
-<h5>4. CAPACIDAD DE COMPRA:</h5>
-<p>Para utilizar los servicios del Website se requiere ser mayor
+<div className="bar"></div>
+<br></br><br></br>
+<h5 className="subtitulo">4. CAPACIDAD DE COMPRA:</h5>
+<div className="bar"></div>
+<p className="parrafo">Para utilizar los servicios del Website se requiere ser mayor
  de edad. No podrán acceder a estos servicios los menores de edad 
  ni personas carentes de capacidad para adquirir derechos y
   contraer obligaciones. Los padres, tutores o responsables 
@@ -75,10 +80,12 @@ hacer click en la opción correspondiente e ingresar el e-mail
    que se derive de él.<br></br>
    No se aceptan operaciones con tarjetas extranjeras.
    </p>
+   <div className="bar"></div>
    <br></br><br></br>
 
-   <h5>5. POLÍ­TICA DE PRIVACIDAD DE DATOS PERSONALES. SEGURIDAD Y TRATAMIENTO</h5>
-   <p>Para poder utilizar el Website de manera eficiente y segura, los Usuarios
+   <h5 className="subtitulo">5. POLÍ­TICA DE PRIVACIDAD DE DATOS PERSONALES. SEGURIDAD Y TRATAMIENTO</h5>
+<div className="bar"></div>
+   <p className="parrafo">Para poder utilizar el Website de manera eficiente y segura, los Usuarios
  deberán aportar ciertos datos, entre ellos, su nombre y apellido y cuenta
   de e-mail. Por tal motivo se requiere que éstos sean verdaderos y exactos.
    Los datos recabados en los formularios correspondientes serán
@@ -101,9 +108,11 @@ En consonancia con lo prescripto por la Ley de Protección de Datos
    solicitara la supresión de los datos, la misma implicará dejar de ser Usuario 
    del Sistema y deberá hacerse por carta documento o presentación con firma.
 </p>
+<div className="bar"></div>
 <br></br><br></br>
-<h5>6. DERECHO DE RETRACTACIÓN</h5>
-<p>En las compras realizadas por medio de este Sitio el Usuario podrá revocar
+<h5 className="subtitulo">6. DERECHO DE RETRACTACIÓN</h5>
+<div className="bar"></div>
+<p className="parrafo">En las compras realizadas por medio de este Sitio el Usuario podrá revocar
  su aceptación dentro del plazo de diez (10) días corridos contados a partir
   del momento de la compra, sin ninguna responsabilidad. A dichos efectos
  la revocación podrá ser comunicada en forma telefónica y/o a través de un
@@ -119,9 +128,11 @@ el cliente a la Empresa con motivo de la compra serán reintegrados al
  producto dentro del plazo de 30 días corridos desde que fuera comunicada
   la revocación de la aceptación.
 </p>
+<div className="bar"></div>
 <br></br><br></br>
-<h5>7. CAMBIO DE PRODUCTO</h5>
-<p>El cambio de producto sólo será posible dentro del plazo de 10 días
+<h5 className="subtitulo">7. CAMBIO DE PRODUCTO</h5>
+<div className="bar"></div>
+<p className="parrafo">El cambio de producto sólo será posible dentro del plazo de 10 días
 corridos de entregado el producto. Para poder efectuarse el cambio, el 
 producto deberá encontrarse en perfectas condiciones, sin abrir y sin uso,
  con todas las etiquetas y envoltorios con los que fue entregado en 
@@ -133,9 +144,11 @@ producto deberá encontrarse en perfectas condiciones, sin abrir y sin uso,
  gastos de envío con motivo del cambio del producto serán a cargo de la
 Empresa, si el mismo se requiere dentro de los 10 días corridos desde la
 entrega del mismo al emi're@gmail.com</p>
+<div className="bar"></div>
 <br></br><br></br>
-<h5> 8. PLAZOS DE ENTREGA</h5>
-<p>Emi're cuenta con diferentes métodos de envío de acuerdo a las
+<h5 className="subtitulo"> 8. PLAZOS DE ENTREGA</h5>
+<div className="bar"></div>
+<p className="parrafo">Emi're cuenta con diferentes métodos de envío de acuerdo a las
  distintas zonas y los servicios logísticos. <br></br><br></br>
 
 Emi're realiza envíos a todo el país. <br></br>Los envíos son realizados por Andreani, Oca, Welivery o Paquery
@@ -147,6 +160,7 @@ entrar al siguiente link: https://www.emi're.com.ar/metodos-de-envio.
 El usuario accede y entiende que los tiempos de entrega pueden verse 
 demorados en fechas comerciales como: Hot Sale, Día del Padre, Día de la
  Madre, CyberMonday, Navidad, etc </p>
+ <div className="bar"></div>
    </div>
         </div>
 

@@ -1,0 +1,12 @@
+.barcard {
+    border-top: 1px solid black;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-evenly;
+    text-rendering: geometricPrecision;
+    justify-items: auto;
+    gap: 10px;
+}

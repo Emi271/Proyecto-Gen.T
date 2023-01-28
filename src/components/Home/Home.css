@@ -43,4 +43,17 @@
         width:max-content;
       }
       
+      .tarjetas{
+        justify-content: space-around;
+      }
+
+
+.im1{
+  max-width: 470px;
+}
+
+.im2{
+  max-width: 470px;
+  height: 334px;
+}
      

@@ -12,12 +12,30 @@ import img from '../assets/imgs/carrito.png'
 import img2 from '../assets/imgs/usuario.png'
 import img3 from '../assets/imgs/corazon.png'
 
+/* const selectionBoard = document.getElementById('selection-board');
+const contentContainer = document.getElementById('content-container');
 
+selectionBoard.addEventListener('click', (event) => {
+  // Check if the clicked element is a selection on the board
+  if (event.target.matches('.selection')) {
+    // Get the content associated with the selection
+    const content = event.target.dataset.content;
+    // Update the content container with the new content
+    contentContainer.innerHTML = content;
+  }
+});
+ */
+/* 
+$('#dmenu').hover(function(){
+	$('#navbarDropdown').trigger('click')
+  //console.log('hover');
+})
+ */
 function Navegation () {
   return (
     <>
-      <Navbar bg="light" expand="lg"  >
-        <Container>
+      <Navbar bg="light" expand="lg" >
+        <Container  >
           <Navbar.Brand href="/">Emi're</Navbar.Brand>
           <ul className='nav-items'>
             <Nav.Link><li> <Link to="/shoppingCard">
@@ -37,6 +55,7 @@ function Navegation () {
         <Nav.Link href="/Maquillaje">Maquillaje</Nav.Link>
         <Nav.Link href="/Accesorios">Accesorios</Nav.Link>
         <Nav.Link href="/Capilar">Capilar</Nav.Link>
+        <Nav.Link href="/prueba">lalal</Nav.Link>
         <NavDropdown title="Fragancias" id="collasible-nav-dropdown">
               <NavDropdown.Item href="/productos">Fragancias Femeninas</NavDropdown.Item>
               <NavDropdown.Item href="/FraganciasHombres">Fragancias Masculinas</NavDropdown.Item>

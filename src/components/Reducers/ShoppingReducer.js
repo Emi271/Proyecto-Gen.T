@@ -10,19 +10,21 @@ import {
   products: data,
   cart: [],
 };  
-
 export function shoppingReducer(state = initialState, action) {
   switch (action.type) {
     case ADD_TO_CART: {
-
-      let newItem = data.find((x) => x.id === action.product.id);
+      let newItem = state.products.find(
+        (product) => product.id === action.payload
+      );
       //console.log(newItem);
 
-      let itemInCart = state.cart.find((x) => x.id === action.product.id);
+      let itemInCart = state.cart.find((item) => item.id === newItem.id);
 
-      return itemInCart ? {
+      return itemInCart
+        ? {
             ...state,
-            cart: state.cart.map((item) => item.id === newItem.id
+            cart: state.cart.map((item) =>
+              item.id === newItem.id
                 ? { ...item, quantity: item.quantity + 1 }
                 : item
             ),
@@ -33,25 +35,26 @@ export function shoppingReducer(state = initialState, action) {
           };
     }
     case REMOVE_ONE_FROM_CART: {
-      let itemToDelete = state.find((x) => x.id === action.productId);
+      let itemToDelete = state.cart.find((item) => item.id === action.payload);
 
-      return itemToDelete.quantity > 1 ? {
+      return itemToDelete.quantity > 1
+        ? {
             ...state,
             cart: state.cart.map((item) =>
-              item.id === action.productId
+              item.id === action.payload
                 ? { ...item, quantity: item.quantity - 1 }
                 : item
             ),
           }
         : {
             ...state,
-            cart: state.cart.filter((x) => x.id !== action.payload),
+            cart: state.cart.filter((item) => item.id !== action.payload),
           };
     }
     case REMOVE_ALL_FROM_CART: {
       return {
         ...state,
-        cart: state.cart.filter((x) => x.id !== action.payload),
+        cart: state.cart.filter((item) => item.id !== action.payload),
       };
     }
     case CLEAR_CART:

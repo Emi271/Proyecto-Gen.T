@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react'
+import { addToCart } from '../Actions/ShoppingAcctions';
+import { useDispatch, useSelector } from 'react-redux';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import ShopContext from '../Context/ShopContext'
@@ -22,6 +24,9 @@ function CardMaquillaje() {
  
    const maquillaje = data.filter(x => x.categoria ==='maquillaje')
    console.log(maquillaje);
+   const dispatch = useDispatch();
+   const state = useSelector((state) => state);
+   const { cart } = state.shopping;
  return (
      <>
        <ShopContext.Consumer>
@@ -36,17 +41,19 @@ function CardMaquillaje() {
                {context.products.filter(x => x.categoria ==='maquillaje').map((p) => {
                  return (<Card 
                    style={{ width: '18rem' }}>
+                     <article key={p.id} >
                      <Link to={'/item/${p.id}'}>
                      <Card.Img className='imgn' variant="top" src={p.image} />
                      </Link>
                      <Card.Body>
-                       <Card.Title className='tittle'>{p.name}</Card.Title>
+                       <Card.Title className='text-truncate'>{p.name}</Card.Title>
                        <CardHeader>{p.marca}</CardHeader>
                        <Card.Text>
                          {p.price}
                        </Card.Text>
-                       <Button onClick={() => context.addProductToCart(p)} variant="primary"><p>Comprar</p></Button>
+                       <Button onClick={() =>  dispatch(addToCart(p.id))} variant="primary"><p>Comprar</p></Button>
                      </Card.Body>
+                     </article>
                    </Card>
                    ) 
                })

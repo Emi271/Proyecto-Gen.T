@@ -1,4 +1,5 @@
 import React from 'react'
+import './Home.css'
 import { Card, CardGroup, CardImg } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button'
 import Carousel from 'react-bootstrap/Carousel';
@@ -8,7 +9,7 @@ import {Link} from "react-router-dom";
 function Home() {
     return (
         <>
-        <div className='home'>
+        <div >
  
         <Carousel className='carousel' >
       <Carousel.Item className='item'>
@@ -72,8 +73,14 @@ function Home() {
     DEBERÍAMOS VER UN TOQUE EL COLOR DE LA NAVBAR.. YO
     PENSABA EN UN ROSA O LILA ALGO TRANQUI PERO HERMOSO
   */}
+  <br></br>
+  <div className='flex'>
+  <img src='https://d3cdlnm7te7ky2.cloudfront.net/media/mgs/fbuilder/promobanners/DESTACADO.jpg' className='im1'></img>
+  <img src='https://d3cdlnm7te7ky2.cloudfront.net/media/wysiwyg/home/bc_lancome-resp.jpg' className='im2'></img>
+  </div>
         </div>
         <br></br>
+        <img src='https://d3cdlnm7te7ky2.cloudfront.net/media/wysiwyg/Campanas/Navidad/bt_responsive_beneficios_dia.gif' className="imagengif"></img>
         <div>
            <h4>
         Nuestras últimas ofertas!!</h4></div>

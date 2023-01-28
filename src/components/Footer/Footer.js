@@ -1,10 +1,11 @@
 import React from 'react'
+import { Button } from 'react-bootstrap';
 import '../Footer/Footer.css'
 import { CDBFooter, CDBFooterLink, CDBBtn, CDBIcon, CDBContainer, CDBBox } from 'cdbreact';
 
 export const Footer = () => {
   return (
-    <CDBFooter /* className="shadow" */>
+    <CDBFooter  className="lala" >
       <CDBBox display="flex" flex="column" className="mx-auto py-0" style={{ width: '90%' }}>
         <CDBBox display="flex" justifyContent="between">
           <CDBBox alignSelf="center">
@@ -28,8 +29,8 @@ export const Footer = () => {
             Acerca de Emi're
             </p>
             <CDBBox display="flex" flex="column"  style={{ cursor: 'pointer' }}>
-              <CDBFooterLink href="/">Nuestros locales</CDBFooterLink>
-              <CDBFooterLink href="/">Métodos de pago</CDBFooterLink>
+              <CDBFooterLink href="/Nuestroslocales">Nuestros locales</CDBFooterLink>
+              <CDBFooterLink href="/FormasDePago">Métodos de pago</CDBFooterLink>
               <CDBFooterLink href="/envios">Métodos de envío</CDBFooterLink>
               <CDBFooterLink href="/politicasdevoluciones">Política de cambios y devoluciones</CDBFooterLink>
              <CDBFooterLink href="/TerminosyCondiciones">Terminos y Condiciones</CDBFooterLink>
@@ -45,6 +46,9 @@ export const Footer = () => {
             </CDBBox>
           </CDBBox>
         </CDBBox>
+        <br></br>
+        <Button variant="light" style={{ width: '12rem' }} className='boton'
+        href='/Trabajo' >Trabaja con nosotros</Button>
         <small className="text-center mt-3"> Copyright 2022 &copy; Emi're.</small>
       </CDBBox>
     </CDBFooter>

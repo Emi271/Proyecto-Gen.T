@@ -13,11 +13,38 @@ import Contact2 from './components/Contact2/Contact2';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ShoppingCart from './components/ShoppingCart/ShoppingCart';
 import store from "./store/index";
-import Item from './components/Item/Item';
+import ProductDetalle from './components/Item/Item';
 import Footer from './components/Footer/Footer';
 import Terms from './components/Terms/Terms';
 import Politicas from './components/politicas/politicas';
 import Envio from './components/Envio/Envio';
+import LocalesInfo from './components/NuestrosLocales/LocalesInfo';
+import Capilar from './components/Card/Capilar/Capilar';
+import CardCapilar2 from './components/CardCapilar2/CardCapilar2';
+import CardMascaraCapilar from './components/MascarasCapilar/productos';
+import Trabajo from './components/OfertaLaboral/Trabajo';
+import ProductItem from './components/Types/ProductItem';
+import FormasdePago from './components/Métodos de pago/FormasdePago';
+/* var mysql = require('mysql');
+
+var conexion = mysql.createConnection({
+  host: 'localhost',
+  database: 'users',
+  user: 'root', 
+  password:'',
+
+});
+
+conexion.connect(function(error){
+  if(error){
+    throw error;
+  }else{
+    console-log('CONEXION EXITOSA')
+  }
+
+});
+conexion.end();
+  */
 
 function App() {
   return (
@@ -30,7 +57,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/productos" element={<CardProduct />} />
         <Route path="/contacto" element={<Contact />} />
-        <Route path="/item/:id" element={<Item />} />
+        <Route path="/item/:id" element={<ProductDetalle />} />
         <Route path="/shoppingCard" element={<ShoppingCart />} />
         <Route path="/IniciarSesion" element={<Contact2 />} />
         <Route path="/TerminosyCondiciones" element={<Terms />} />
@@ -40,6 +67,14 @@ function App() {
         <Route path="/Accesorios" element={<CardAccesorios />} />
         <Route path="/politicasdevoluciones" element={<Politicas/>} />
         <Route path="/envios" element={<Envio/>} />
+        <Route path="/Nuestroslocales" element={<LocalesInfo/>} />
+        <Route path="/prueba" element={<Capilar/>} />
+        <Route path="/acondicionadores" element={<CardCapilar2/>} />
+        <Route path="/mascarasCapilar" element={<CardMascaraCapilar/>} />
+        <Route path="/Trabajo" element={<Trabajo/>} />
+        <Route path="/FormasDePago" element={<FormasdePago/>} />
+
+
       </Routes>
       <br></br>
       <Footer></Footer>

@@ -1,15 +1,15 @@
-import React, { useState, useReducer } from "react";
+/* import React, { useState, useReducer } from "react";
 import ShopContext from "./ShopContext";
 import { shoppingReducer, ADD_TO_CART, CLEAR_CART, REMOVE_ALL_FROM_CART, REMOVE_ONE_FROM_CART } from "../Reducers/ShoppingReducer";
 import { data } from "../assets/db/data";
 
-function GlobalState(props) {
+function GlobalState(props) { */
  /*  const products = [
   ];
  */
-  const [products, setProductos] = useState(data);
+/*   const [products, setProductos] = useState(data); */
   // const [cart, setCart] = useState([]);
-
+/* 
   const [cartState, dispatch] = useReducer(shoppingReducer, { cart: [] });
 
   const addProductToCart = product => {
@@ -36,4 +36,4 @@ function GlobalState(props) {
 
 
 
-export default GlobalState;
+export default GlobalState; */

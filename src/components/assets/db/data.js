@@ -384,7 +384,7 @@ export const data = [
 "name": "SEMI DI LINO MOISTURE NUTRITIVE SHAMPOO 250ml",
 "price":"5.464",
 "marca":"ALFAPARF",
-"categoria": "capilar",
+"categoria": "shampoo",
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/P/R/PR29501BI19769_PS130559_SEMI_DI_LINO_DIAMOND_ILLUMATING_CONDITIONER_250ML_SZ1.png"
 },
 
@@ -393,14 +393,14 @@ export const data = [
 "name": "SHAMPOO ALTA NUTRICIÓN ARGÁN 300ML",
 "price":"2.010",
 "marca":"LA PUISSANCE",
-"categoria": "capilar",
+"categoria": "shampoo",
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/4/144692-a-shampoo-alta-nutricion-arg_n-y-_cido-hialur_nico-300ml.jpg"
 },{
     "id": "49",
 "name": "SHAMPOO COCONUT OIL 300ML",
 "price":"1.990",
 "marca":"LA PUISSANCE",
-"categoria": "capilar",
+"categoria": "shampoo",
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/4/144698-a-shampoo-coconut-oil-300ml.jpg"
 },
 
@@ -409,7 +409,7 @@ export const data = [
 "name": "SEMI DI LINO VOLUMIZING LOW SHAMPOO 1000ml",
 "price":"9.990",
 "marca":"ALFAPARF",
-"categoria": "capilar",
+"categoria": "shampoo",
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/p/s/ps131737-a.jpg"
 },
 {
@@ -417,7 +417,7 @@ export const data = [
 "name": "MÁSCARA MATIZADORA SILVER 250ML",
 "price":"2.360",
 "marca":"LA PUISSANCE",
-"categoria": "maquillaje",
+"categoria": "mascaraCapilar",
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/4/144697-a-mascara-matizadora-silver-250ml.jpg"
 },
 {
@@ -425,7 +425,7 @@ export const data = [
 "name": "MÁCARA QUERATINA HIDROLIZADA 250ML",
 "price":"1.630",
 "marca":"LA PUISSANCE",
-"categoria": "maquillaje",
+"categoria": "mascaraCapilar",
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/4/144691-a-mascara-queratina-hidrolizada-250ml.jpg"
 },
 {
@@ -433,7 +433,7 @@ export const data = [
 "name": "SEMI DI LINO DIAMOND ILLUMINATING MASK 200ML",
 "price":"7.072",
 "marca":"ALFAPARF",
-"categoria": "maquillaje",
+"categoria": "mascaraCapilar",
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/8/8/88498-a-semi-di-lino-diamond-illuminating-mask-200ml.jpg"
 },
  {
@@ -441,7 +441,7 @@ export const data = [
 "name": "DAILY CONDITIONER",
 "price":"3819",
 "marca":"AMERICAN CREW",
-"categoria": "capilar",
+"categoria": "acondicionador",
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/3/133209-a-daily-conditioner-250ml.jpg"
 },
 {
@@ -449,7 +449,7 @@ export const data = [
 "name": "VOLUMIZING MOUSSE CONDITIONER 200ML",
 "price":"6.107",
 "marca":"ALFAPARF",
-"categoria": "capilar",
+"categoria": "acondicionador",
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/P/R/PR29534BI27623_PS131734_SEMI_DI_LINO_VOLUMIZING_MOUSSE_CONDITIONER_200ML_SZ1.jpg"
 },
 {
