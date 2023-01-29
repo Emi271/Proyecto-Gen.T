@@ -44,7 +44,7 @@ function Navegation () {
           <li> <Link to="/contacto">
             <img src={img2} alt={"logo"} className="cart-img2" />
           </Link></li>
-          <li> <Link to="/Mis Favoritos">
+          <li> <Link to="/MisFavoritos">
             <img src={img3} alt={"logo"} className="me-gusta" />
             </Link>
              </li>

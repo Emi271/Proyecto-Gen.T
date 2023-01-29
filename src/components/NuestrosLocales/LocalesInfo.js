@@ -12,7 +12,7 @@ function LocalesInfo () {
    <div className="cards">
         <Card
           style={{ width: '18rem' }}
-          className="mb-2">
+          className="mb-2"> 
           <Card.Body>
             <Card.Title>Emi're</Card.Title>
             <Card.Text>

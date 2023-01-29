@@ -1,5 +1,4 @@
 import React from "react";
-
 function searchProducts(searchTerm) {
     let products = document.getElementsByClassName("product");
 

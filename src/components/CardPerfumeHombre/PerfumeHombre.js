@@ -5,7 +5,6 @@ import './PerfumeHombre.css'
 import ProductDetalle from '../Item/Item';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import ShopContext from '../Context/ShopContext'
 import {Link} from "react-router-dom";
 import CardHeader from 'react-bootstrap/esm/CardHeader';
 import { data } from '../assets/db/data';
@@ -30,9 +29,7 @@ function CardPerfHombre() {
    const state = useSelector((state) => state);
    const { cart } = state.shopping;
  return (
-     <>
-       <ShopContext.Consumer>
-         {context => (
+ 
            <>
              <h3>Fragancias de hombres</h3>
              <br></br>
@@ -40,7 +37,7 @@ function CardPerfHombre() {
  
              <div className='grid'>
             
-               {context.products.filter(x => x.categoria ==='perfumehombre').map((p) => {
+               {products.filter(x => x.categoria ==='perfumehombre').map((p) => {
                  return (<Card 
                    style={{ width: '18rem' }}>
                        <article key={p.id} >
@@ -64,9 +61,5 @@ function CardPerfHombre() {
           
            </>
          )}
-       </ShopContext.Consumer>
-     </>
-   )
- }
   
 export default CardPerfHombre

@@ -3,7 +3,6 @@ import { addToCart } from '../Actions/ShoppingAcctions';
 import { useDispatch, useSelector } from 'react-redux';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import ShopContext from '../Context/ShopContext'
 import {Link} from "react-router-dom";
 import CardHeader from 'react-bootstrap/esm/CardHeader';
 import { data } from '../assets/db/data';
@@ -29,9 +28,6 @@ function CardCapilar() {
   const state = useSelector((state) => state);
   const { cart } = state.shopping;
 return (
-    <>
-      <ShopContext.Consumer>
-        {context => (
           <>
             <h3>Shampoos, Acondicionadores y demás</h3>
             <br></br>
@@ -39,7 +35,7 @@ return (
 
             <div className='grid'>
            
-              {context.products.filter(x => x.categoria ==='shampoo').map((p) => {
+              {products.filter(x => x.categoria ==='shampoo').map((p) => {
                 return (<Card 
                   style={{ width: '18rem' }}>
                     <article key={p.id} >
@@ -63,9 +59,5 @@ return (
          
           </>
         )}
-      </ShopContext.Consumer>
-    </>
-  )
-}
- 
+
 export default CardCapilar

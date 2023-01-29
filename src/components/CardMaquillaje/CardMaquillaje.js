@@ -3,7 +3,6 @@ import { addToCart } from '../Actions/ShoppingAcctions';
 import { useDispatch, useSelector } from 'react-redux';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import ShopContext from '../Context/ShopContext'
 import {Link} from "react-router-dom";
 import CardHeader from 'react-bootstrap/esm/CardHeader';
 import { data } from '../assets/db/data';
@@ -28,9 +27,6 @@ function CardMaquillaje() {
    const state = useSelector((state) => state);
    const { cart } = state.shopping;
  return (
-     <>
-       <ShopContext.Consumer>
-         {context => (
            <>
              <h3>Productos de maquillaje</h3>
              <br></br>
@@ -38,7 +34,7 @@ function CardMaquillaje() {
  
              <div className='grid'>
             
-               {context.products.filter(x => x.categoria ==='maquillaje').map((p) => {
+               {products.filter(x => x.categoria ==='maquillaje').map((p) => {
                  return (<Card 
                    style={{ width: '18rem' }}>
                      <article key={p.id} >
@@ -62,9 +58,5 @@ function CardMaquillaje() {
           
            </>
          )}
-       </ShopContext.Consumer>
-     </>
-   )
- }
-  
+
 export default CardMaquillaje
