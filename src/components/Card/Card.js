@@ -42,7 +42,7 @@ return (
                return (<Card 
                  style={{ width: '18rem' }}  className="tarjeta" >
                    <article key={p.id} >
-                   <Link to={'/item/${p.id}'}>
+                   <Link to={`/item/${p.id}`}>
                    <Card.Img className='imgn' variant="top" src={p.image} />
                    </Link>
                    <Card.Body>

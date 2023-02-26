@@ -54,8 +54,7 @@ function Navegation () {
         <Nav className="me-auto">
         <Nav.Link href="/Maquillaje">Maquillaje</Nav.Link>
         <Nav.Link href="/Accesorios">Accesorios</Nav.Link>
-        <Nav.Link href="/Capilar">Capilar</Nav.Link>
-        <Nav.Link href="/prueba">lalal</Nav.Link>
+        <Nav.Link href="/prueba">Capilar</Nav.Link>
         <NavDropdown title="Fragancias" id="collasible-nav-dropdown">
               <NavDropdown.Item href="/productos">Fragancias Femeninas</NavDropdown.Item>
               <NavDropdown.Item href="/FraganciasHombres">Fragancias Masculinas</NavDropdown.Item>

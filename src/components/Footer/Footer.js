@@ -42,7 +42,7 @@ export const Footer = () => {
             </p>
             <CDBBox display="flex" flex="column" style={{ cursor: 'pointer' }}>
               <CDBFooterLink href="/contacto">Suscríbete</CDBFooterLink>
-             <a src="" > <CDBFooterLink href="/">Para consultas y/o denuncias ingrese aquí</CDBFooterLink></a>
+             <a src="" > <CDBFooterLink href="https://buenosaires.gob.ar/jefaturadegabinete/atencion-ciudadana-y-gestion-comunal/defensa-al-consumidor">Para consultas y/o denuncias ingrese aquí</CDBFooterLink></a>
             </CDBBox>
           </CDBBox>
         </CDBBox>

@@ -26,26 +26,7 @@ import CardMascaraCapilar from './components/MascarasCapilar/productos';
 import Trabajo from './components/OfertaLaboral/Trabajo';
 import MisFavoritos from './components/MisFavoritos/MisFavoritos';
 import FormasdePago from './components/Métodos de pago/FormasdePago';
-/* var mysql = require('mysql');
-
-var conexion = mysql.createConnection({
-  host: 'localhost',
-  database: 'users',
-  user: 'root', 
-  password:'',
-
-});
-
-conexion.connect(function(error){
-  if(error){
-    throw error;
-  }else{
-    console-log('CONEXION EXITOSA')
-  }
-
-});
-conexion.end();
-  */
+import Actividad from './components/Actividadcss/pruebaCSS';
 
 function App() {
   return (
@@ -76,7 +57,7 @@ function App() {
         <Route path="/mascarasCapilar" element={<CardMascaraCapilar/>} />
         <Route path="/Trabajo" element={<Trabajo/>} />
         <Route path="/FormasDePago" element={<FormasdePago/>} />
-
+        <Route path="/Actividad" element={<Actividad/>} />
 
       </Routes>
       <br></br>

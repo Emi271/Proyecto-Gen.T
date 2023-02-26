@@ -1,20 +1,26 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from "react-redux";
 import { addToCart, clearCart, delFromCart } from "../Actions/ShoppingAcctions";
 import Card from 'react-bootstrap/Card';
-
+import { Alert } from 'react-bootstrap';
 import './ShoppingCart.css'
- 
+
 const ShoppingCart = () => {
   const state = useSelector((state) => state);
   const dispatch = useDispatch();
   const { products, cart } = state.shopping;
+
+
   return (
 <>
       <div className='cart' > 
       <article className='box' >
+        <Alert>
+        <Alert.Heading variant='success' >Envíos Gratis a partir de $4.000</Alert.Heading>
+        </Alert>
       <h3 className='texto'>Carrito</h3>
 {/*       {context.cart.length <= 0 && <p>No hay elementos agregados</p>} */}
+<div className='carrito'>
             {cart.map((item, index) => {
               return (
                 <Card  key={index}
@@ -25,13 +31,14 @@ const ShoppingCart = () => {
                 <Card.Title>{item.name}</Card.Title>
                 <Card.Img className='imgn' variant="top" src={item.image} />
                   <Card.Text>Cantidad :{item.quantity}</Card.Text>
-                  <Card.Text>Precio: ${item.price} x {item.quantity} = ${item.price * item.quantity}</Card.Text>
+                  <Card.Text>Precio: ${item.price} x {item.quantity} = ${(item.price * item.quantity).toFixed(2)}</Card.Text>
                  {/*  <button onClick={dispatch(delFromCart(product.id, true))}>Eliminar</button> */}
                   </Card.Body>
                   </Card> 
                   
               );
             })}
+            </div>
               </article>
             {/*   <article>
               <button onClick={() => dispatch(clearCart())}>Limpiar Carrito</button>

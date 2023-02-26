@@ -1,5 +1,5 @@
 import { createStore } from "redux";
-import { FavoritosReducer } from "../components/Reducers/FavoritosReducer";
+import { FavoritosReducer } from "../components/Reducers/Index2";
 
 const store2 = createStore(FavoritosReducer);
 

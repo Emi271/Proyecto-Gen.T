@@ -4,19 +4,17 @@ import { useSelector, useDispatch } from "react-redux";
 import { addToFavorites, delFromFavorites, ClearFavorites } from '../Actions/FavoritesActions';
 import Card from 'react-bootstrap/Card';
 
- 
 const MisFavoritos = () => {
   const state = useSelector((state) => state);
   const dispatch = useDispatch();
   const favs = state.favs? state.favs.favs : []; 
-  const products = favs.map(fav => fav.product);
 
   return (
     <>
       <div className='cart' > 
         <article className='box' >
           <h3 className='texto'>Mis Favoritos</h3>
-          {products.map((item, index) => {
+          {favs.map((item, index) => {
             return (
               <Card key={index} data={item}
               addToFavorites={() => dispatch(addToFavorites(item.id))}>

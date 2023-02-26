@@ -1,35 +1,72 @@
 import React, { useState, useEffect } from 'react';
+import './Item.css'
+import { useDispatch, useSelector } from 'react-redux';
+import { addToFavorites } from '../Actions/FavoritesActions';
 import { useParams } from 'react-router-dom';
+import { addToCart } from '../Actions/ShoppingAcctions';
 import { data } from '../assets/db/data';
 import Card from 'react-bootstrap/Card';
+import { Alert } from 'react-bootstrap';
 import CardHeader from 'react-bootstrap/CardHeader';
+import { Button } from 'react-bootstrap';
 
 const ProductDetalle = () => {
   const params = useParams();
   const id = params?.id;
   const [product, setProduct] = useState(null);
+  const dispatch = useDispatch();
+  const favs = useSelector((state) => state.favs?.favs);
+  const [isFavorited, setIsFavorited] = useState(false);
+  
 
   useEffect(() => {
     if (!id) return;
-    const products = [data];
+    const products = [...data];
     const selectedProduct = products.find(product => product.id === id);
     setProduct(selectedProduct);
   }, [id]);
 
+/*   useEffect(() => {
+    if (product) {
+      setIsFavorited(favs.some((fav) => fav.id === product.id));
+    }
+  }, [product, favs]);
+
+  const handleAddToFavorites = () => {
+    dispatch(addToFavorites(product.id));
+    setIsFavorited(true);
+  }
+ */
   if (!product) {
     return <div>Loading...</div>;
   }
-
+ 
   return (
-    <div>
-      <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={product.image} />
-        <Card.Body>
-          <Card.Title>{product.name}</Card.Title>
-          <CardHeader>{product.marca}</CardHeader>
-          <Card.Text>{product.price}</Card.Text>
-        </Card.Body>
-      </Card>
+    <div className='container'>
+      <Alert>
+        <Alert.Heading variant='success' >Envíos Gratis en compras a partir de $4.000</Alert.Heading>
+      </Alert>
+      <article key={product.id}>
+        <img className="card-item" alt="imagencard" src={product.image}></img>
+        <div className='card-titulo'>
+          <h4 className='card-nombre'>{product.name}</h4>
+          <h5 className='card-marca'>{product.marca}</h5>
+        </div>
+        <div className='precio'>
+          <h5 className='card-precio'>Precio: {product.price}</h5>
+        </div>
+      </article>
+      <br></br>
+      <div className='card-texto'>
+        <p>{product.description}</p>
+      </div>
+      <div className='botun'>
+        <Button onClick={() => dispatch(addToCart(product.id))} variant="primary">Comprar</Button>
+       {/*  <Button onClick={handleAddToFavorites} disabled={isFavorited}>
+          {isFavorited ? 'Favorito' : 'Agregar a favoritos'}
+        </Button> */}
+      </div>
+      <h3>Productos recomendados</h3>
     </div>
   );
 };

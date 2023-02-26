@@ -6,28 +6,28 @@ import {
   REMOVE_ONE_FROM_FAVORITES,
 } from "../Types/Index"
 
- export const initialState = {
+export const initialState = {
   products: data,
   favs: [],
 };  
+
 export function FavoritosReducer(state = initialState, action) {
   switch (action.type) {
     case ADD_TO_FAVORITES: {
-      let newItem = state.products.find(
+      const newItem = state.favs.find(
         (product) => product.id === action.favload
       );
-      //console.log(newItem);
-
-      let itemInFavorites = state.favs.find((item) => item.id === newItem.id);
-
+      
+      const itemInFavorites = state.favs.find((item) => item.id === newItem.id);
+      
       return itemInFavorites
         ? {
             ...state,
             favs: state.favs.map((item) =>
-              item.id === newItem.id
-                ? { ...item, quantity: item.quantity + 1 }
-                : item
-            ),
+            item.id === newItem.id
+            ? { ...item, quantity: item.quantity + 1 }
+            : {...item}
+        ),        
           }
         : {
             ...state,
@@ -35,7 +35,7 @@ export function FavoritosReducer(state = initialState, action) {
           };
     }
     case REMOVE_ONE_FROM_FAVORITES: {
-      let itemToDelete = state.favs.find((item) => item.id === action.favload);
+      const itemToDelete = state.favs.find((item) => item.id === action.favload);
 
       return itemToDelete.quantity > 1
         ? {

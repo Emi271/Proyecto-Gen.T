@@ -1,0 +1,75 @@
+@media (max-width: 400px) {
+    .card-item {
+        height: 200px;
+        width: 200px;
+        position: relative;
+        right: 20px;
+        }
+.card-titulo {
+    font-size: 16px;
+}
+}
+@media (max-width: 768px){
+    .card-item {
+        height: 350px;
+        width: 350px;
+        position: relative;
+        right: 70px;
+        }
+.card-titulo {
+    position: relative;
+    font-size: 16px;
+bottom: 0px;
+}
+}
+
+.card-texto {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container {
+    position: relative;
+}
+
+@media  (min-width: 768px) and  (max-width: 1400px) {
+    .card-item {
+        height: 400px;
+        width: 400px;
+        position: relative;
+        left: 200px;
+        top: 20px;
+        }
+.card-titulo {
+    position: relative;
+    bottom: 350px;
+    left: 50px;
+}
+.card-nombre {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+.card-marca {
+    font-size: 26px;
+}
+.card-texto {
+ position: relative;
+ padding: 10px;
+ border-radius: 5%;
+ border: 1px solid gray;
+ left: 350px;
+ bottom: 400px;
+ width: 500px;
+}
+.precio {
+    position: relative;
+    bottom: 430px;
+    left: 400px;
+}
+.card-precio{
+    font-size: 24px;
+}
+.botun{
+    position: relative;
+    bottom: 700px;
+    left: 400px;
+}
+}

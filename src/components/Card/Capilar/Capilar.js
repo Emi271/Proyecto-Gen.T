@@ -8,7 +8,7 @@ function Capilar () {
 
     return (
 <>
-
+<div className="fondo">
 <Carousel>
       <Carousel.Item>
         <img
@@ -87,8 +87,10 @@ function Capilar () {
         <Button variant="primary" href="/Capilar" >Ver productos</Button>
       </Card.Body>
     </Card>
+    <br></br><br></br><br></br><br></br>
 </div>
-<br></br><br></br><br></br><br></br>
+</div>
+
   
     
 </>
