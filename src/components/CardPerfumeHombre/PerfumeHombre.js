@@ -15,14 +15,7 @@ function CardPerfHombre() {
    useEffect(() => {
      setProducts(data);
    }, []); 
-  
-   // function addToCart(id) {
-   //   dispatch({ type: TYPES.ADD_TO_CART, payload: id })
-   //   console.log(state)
-   // }
-  
- 
- 
+
    const perfumehombre = data.filter(x => x.categoria ==='perfumehombre')
    console.log(perfumehombre);
    const dispatch = useDispatch();
@@ -33,9 +26,7 @@ function CardPerfHombre() {
            <>
              <h3>Fragancias de hombres</h3>
              <br></br>
-             <div>Filtros de búsqueda</div>
- 
-             <div className='grid'>
+            <div className='grid'>
             
                {products.filter(x => x.categoria ==='perfumehombre').map((p) => {
                  return (<Card 

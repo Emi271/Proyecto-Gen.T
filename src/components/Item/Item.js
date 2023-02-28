@@ -15,9 +15,8 @@ const ProductDetalle = () => {
   const id = params?.id;
   const [product, setProduct] = useState(null);
   const dispatch = useDispatch();
-  const favs = useSelector((state) => state.favs?.favs);
-  const [isFavorited, setIsFavorited] = useState(false);
-  
+  const state = useSelector((state) => state);
+  const { favs } = state.favs;
 
   useEffect(() => {
     if (!id) return;
@@ -26,17 +25,7 @@ const ProductDetalle = () => {
     setProduct(selectedProduct);
   }, [id]);
 
-/*   useEffect(() => {
-    if (product) {
-      setIsFavorited(favs.some((fav) => fav.id === product.id));
-    }
-  }, [product, favs]);
 
-  const handleAddToFavorites = () => {
-    dispatch(addToFavorites(product.id));
-    setIsFavorited(true);
-  }
- */
   if (!product) {
     return <div>Loading...</div>;
   }
@@ -62,11 +51,10 @@ const ProductDetalle = () => {
       </div>
       <div className='botun'>
         <Button onClick={() => dispatch(addToCart(product.id))} variant="primary">Comprar</Button>
-       {/*  <Button onClick={handleAddToFavorites} disabled={isFavorited}>
-          {isFavorited ? 'Favorito' : 'Agregar a favoritos'}
-        </Button> */}
+        <br></br><br></br>
+      <Button  onClick={() => dispatch(addToFavorites(product.id))} variant="primary">Agregar a favoritos</Button>
       </div>
-      <h3>Productos recomendados</h3>
+
     </div>
   );
 };

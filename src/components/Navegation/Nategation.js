@@ -11,6 +11,7 @@ import Nav from 'react-bootstrap/Nav';
 import img from '../assets/imgs/carrito.png'
 import img2 from '../assets/imgs/usuario.png'
 import img3 from '../assets/imgs/corazon.png'
+import img4 from '../assets/imgs/busca.png'
 
 /* const selectionBoard = document.getElementById('selection-board');
 const contentContainer = document.getElementById('content-container');
@@ -36,8 +37,9 @@ function Navegation () {
     <>
       <Navbar bg="light" expand="lg" >
         <Container  >
-          <Navbar.Brand href="/">Emi're</Navbar.Brand>
-          <ul className='nav-items'>
+        <ul className='nav-items'>
+<Link to="/"  className='lista'>Emi're</Link>
+    {/*       <Navbar.Brand href="/">Emi're</Navbar.Brand> */}
             <Nav.Link><li> <Link to="/shoppingCard">
             <img src={img} alt={"logo"} className="cart-img" />
           </Link></li></Nav.Link>
@@ -48,26 +50,22 @@ function Navegation () {
             <img src={img3} alt={"logo"} className="me-gusta" />
             </Link>
              </li>
+             <li> <Link to="/Buscar">
+            <img src={img4} alt={"logo"} className="me-gusta" />
+            </Link>
+             </li>
              </ul> 
          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto">
-        <Nav.Link href="/Maquillaje">Maquillaje</Nav.Link>
-        <Nav.Link href="/Accesorios">Accesorios</Nav.Link>
-        <Nav.Link href="/prueba">Capilar</Nav.Link>
+        <Link to="/Maquillaje"  className='links'>Maquillaje</Link>
+        <Link to="/Accesorios"  className='links'>Accesorios</Link>
+        <Link to="/prueba"  className='links'>Capilar</Link>
         <NavDropdown title="Fragancias" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="/productos">Fragancias Femeninas</NavDropdown.Item>
-              <NavDropdown.Item href="/FraganciasHombres">Fragancias Masculinas</NavDropdown.Item>
+        <Link to="/productos"  className='microlinks'  >Fragancias Femeninas</Link>
+        <Link to="/FraganciasHombres"  className='microlinks'>Fragancias Masculinas</Link>
             </NavDropdown>
         </Nav> 
-          <Form className="d-flex">
-                  <Form.Control
-                    type="search"
-                    placeholder=""
-                    className="me-2"
-                    aria-label="Search"/>
-    <Button variant="dark">Search</Button>
-                </Form>
                 </Navbar.Collapse>
         </Container>
     </Navbar>

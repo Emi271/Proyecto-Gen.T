@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
+import { Link, Outlet } from "react-router-dom";
 import shampoo from '../../assets/imgs/Best-Shampoos.webp'
 import Carousel from 'react-bootstrap/Carousel';
 import './Capilar.css'
@@ -39,7 +40,7 @@ function Capilar () {
         <Card.Title>Shampoos</Card.Title>
         <img  src={shampoo} className="seccion"></img>
         <br></br><br></br>
-        <Button variant="primary" href="/Capilar" >Ver productos</Button>
+        <Button variant="primary"><Link to="/Capilar" style={{ color: '#fff' }} className="loli">Ver productos</Link></Button>
       </Card.Body>
     </Card>
     <Card style={{ width: '18rem' }}>
@@ -47,7 +48,7 @@ function Capilar () {
         <Card.Title>Acondicionadores</Card.Title>
         <img  src="https://selmadigital.com/wp-content/uploads/2019/03/Eco-Hair-ShampooLocionAco.jpg" className="seccion2"></img>
         <br></br><br></br>
-        <Button variant="primary" href="/" >Ver productos</Button>
+        <Button variant="primary"><Link to="/acondicionadores" style={{ color: '#fff' }} className="loli">Ver productos</Link></Button>
       </Card.Body>
     </Card>
     <br></br><br></br>
@@ -57,36 +58,10 @@ function Capilar () {
         <Card.Title>Mascarillas</Card.Title>
         <img  src="https://www.bellezapura.com/wp-content/uploads/2020/07/BODEGON-HAIR-FOOD-2019-coningredientes.png" className="seccion"></img>
         <br></br><br></br>
-        <Button variant="primary" href="/mascarasCapilar" >Ver productos</Button>
+        <Button variant="primary"><Link to="/mascarasCapilar" style={{ color: '#fff' }} className="loli">Ver productos</Link></Button>
       </Card.Body>
     </Card>
-<Card style={{ width: '18rem' }}>
-      <Card.Body>
-        <Card.Title>Cepillos</Card.Title>
-        <img  src="https://images.rappi.com.mx/products/977298182-1585100103614.png?d=136x136&e=webp" className="seccion3" ></img>
-        <br></br><br></br>
-        <Button variant="primary" href="/Capilar" >Ver productos</Button>
-      </Card.Body>
-    </Card>
- 
-    <br></br><br></br>
 
-    <Card style={{ width: '18rem' }}>
-      <Card.Body>
-        <Card.Title>Tratamientos específicos</Card.Title>
-        <img  src="https://www.ginkgostore.com/blog/wp-content/uploads/2015/09/Tratamientos-para-el-pelo.jpg" className="seccion3" ></img>
-        <br></br><br></br>
-        <Button variant="primary" href="/Capilar" >Ver productos</Button>
-      </Card.Body>
-    </Card>
-    <Card style={{ width: '18rem' }}>
-      <Card.Body>
-        <Card.Title>Ceras y geles</Card.Title>
-        <img  src="https://http2.mlstatic.com/D_NQ_NP_923841-MLA31114033023_062019-O.jpg" className="seccion3" ></img>
-        <br></br><br></br>
-        <Button variant="primary" href="/Capilar" >Ver productos</Button>
-      </Card.Body>
-    </Card>
     <br></br><br></br><br></br><br></br>
 </div>
 </div>

@@ -697,53 +697,6 @@ export const data = [
 ,
 
 
-{
-"id": "75",
-"name": "ESPONJA CORPORAL BLANCA 6 OLAS",
-"price":"2.599",
-"marca":"KONJAC",
-"categoria": "accesorios",
-"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/2/1234567891057.jpg"
-}, 
-
-,
-
-
-{
-"id": "75",
-"name": "ESPONJA CORPORAL BLANCA 6 OLAS",
-"price":"2.599",
-"marca":"KONJAC",
-"categoria": "accesorios",
-"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/2/1234567891057.jpg"
-}, 
-    
-,
-
-
-{
-"id": "75",
-"name": "ESPONJA CORPORAL BLANCA 6 OLAS",
-"price":"2.599",
-"marca":"KONJAC",
-"categoria": "accesorios",
-"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/2/1234567891057.jpg"
-}, 
-    
-,
-
-
-{
-"id": "75",
-"name": "ESPONJA CORPORAL BLANCA 6 OLAS",
-"price":"2.599",
-"marca":"KONJAC",
-"categoria": "accesorios",
-"image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/2/1234567891057.jpg"
-}, 
-    
-,
-
 
 {
 "id": "76",
@@ -813,10 +766,144 @@ export const data = [
 "categoria": "accesorios",
 "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/2/1234567891057.jpg"
 }, 
-    
+{
+ "id": "82",
+ "name": "BACK COMBING BLACK-PINK",
+ "price":"4.000",
+ "marca": "TANGLE TEEZER",
+ "categoria":"cepillos",
+ "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/p/s/ps133471-a.jpg",
+ "description":"Cepillo voluminizador. Peinado rápido, fácil y suave. Diseñado para el peinado diario en todo tipo y largo de cabello, y ofrece altura, textura y volumen duradero. Los dientes únicos de dos niveles, con una mayor densidad de dientes en la base, hacen que el peinado sea más rápido, más fácil y mucho más suave para tu cabello. Debido a su naturaleza suave, este cepillo es adecuado para todo tipo de cabello.",
+},
+{
+    "id": "83",
+    "name": "LARGE EASY DRY & GO JET BLACK",
+    "price":"4.950",
+    "marca": "TANGLE TEEZER",
+    "categoria":"cepillos",
+    "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/p/s/ps142637.jpg",
+    "description":"Ideal para cabellos largos y ondulados, este cepillo para secado con secador garantiza volumen natural, suavidad y un brillo increíble en un abrir y cerrar de ojos, y en este tono Jet Black, es un cepillo para el cabello tan soñado como tu look.",
+   },
+   {
+    "id": "84",
+    "name": "MINI WET DETANGLER SHERBERT PINK",
+    "price":"4.260",
+    "marca": "TANGLE TEEZER",
+    "categoria":"cepillos",
+    "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/p/s/ps136587-a.jpg",
+    "description":"Con la misma tecnología de dientes patentada de dos niveles que The Wet Detangler, este nuevo tamaño es perfecto para viajar y tiene un elegante orificio para llavero en el asa que le permite sujetarlo a su bolso. Aunque es pequeño, desenreda con seguridad cualquier tipo de cabello, ayudando a reducir la rotura del cabello. El tamaño mini no significa que sea ideal para los niños. ¡También es perfecto para adultos! * Sugerencia: se puede usar en cabello seco o mojado, es ideal para desenredar las puntas y los flecos y para distribuir tratamientos acondicionadores en el cabello mojado.",
+   },
 
-     
+   {
+    "id": "85",
+    "name": "THICK Y CURLY VIOLET",
+    "price":"4.000",
+    "marca": "TANGLE TEEZER",
+    "categoria":"cepillos",
+    "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/p/s/ps133481-b.jpg",
+    "description":"Cepillo para cabello desenredante. 1 Unidad ¿Buscas el cepillo desenredante definitivo para el cabello rizado? Un verdadero cambio de juego para muchos, nuestro cepillo para el cabello desenredante Thick & Curly está diseñado para cabello grueso, rizado o texturizado. Desenreda el cabello mojado o seco de forma rápida y sencilla con sus dientes de flexión firme de dos niveles: son más largos y más fuertes, deja los rizos totalmente libres de enredos y superdefinidos. Sus dientes de flexión firme de dos niveles se han adaptado para cabello grueso y rizado. Los dientes largos y suaves desenredan, eliminan los nudos y reducen la rotura, mientras que los dientes cortos suavizan para lograr un cabello brillante y sin frizz.",
+   },
+   {
+    "id": "86",
+    "name": "SEMI DI LINO MOISTURE DETANGLING FLUID 125ml",
+    "price":"6.975",
+    "marca": "ALFAPARF",
+    "categoria":"tratamiento",
+    "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/p/s/ps131728.jpg",
+    "description":"Fluido desenredante sin enjuague: ofrece la maxima peinabilidad sin apelmazar. Contiene: Urban defence pro3: Escudo anticontaminación para una protección total. Shine fix complex: 24 horas de brillo de la raíz a las puntas. Color fix complex: Filtro UVA/UVB y antioxidantes para la protección del color. Nutri-azúcares: Micro-moléculas hidratantes y nutrientes extracto de la miel. La NUEVA línea Moisture de Alfaparf Milano fue pensada especialmente para cabello deshidratado y frágil, le aporta nutrición, humectación y suavidad. Limpia y nutre en profundidad los cabellos secos, haciéndolos suaves y lisos. Ideal para todo tipo de cabello. Rico en hidratos de carbono y vitaminas para una completa hidratación.",
+   },
+   {
+    "id": "87",
+    "name": "NUTRITIVE 8H MAGIC NIGHT SERUM 90ML",
+    "price":"13.645",
+    "marca": "KERASTASE",
+    "categoria":"tratamiento",
+    "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/3/135034-a.jpg",
+    "description":"8h de nutrición durante la noche, en combinación con la aplicación de Bain Satin 2 + Masquintense. Facilita el desenredado, evitando la fricción de la almohada. La fibra capilar es más suave al tacto. La fragancia te envuelve y promueve un sueño relajado y energía por la mañana. Aumenta la manejabilidad en cabellos normales a gruesos. Hidrata sin aplastar el cabello fino.  Aporta definición al cabello rizado.",
+   },
+   {
+    "id": "88",
+    "name": "COMBO SERIE EXPERT VITAMINO COLOR SHAMPOO & MASCARA & ACEITE 10 EN 1",
+    "price":"26.080",
+    "marca": "L'OREAL PROFESSIONNEL",
+    "categoria":"tratamiento",
+    "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/4/143109-a-combo-serie-expert-vitamino-color-shampoo-_-mascara-_-aceite-10-en-1_1.jpg",
+    "description":"El combo incluye: Serie Expert Vitamino Color Shampoo 300ml + Serie Expert Vitamino Color Mascara 250ml + Serie Expert Vitamino Color 10 En 1 Spray 190ml. El Shampoo Vitamino, enriquecido con antioxidantes y filtro UV, aporta tonos vibrantes y brillo infinito. Elimina residuos protegiendo el pelo y la luminosidad del color. Limpia suavemente el cabello teñido de color haciéndolo durar hasta 8 semanas. La Máscara Vitamino repara y da brillo al cabello teñido, transformando la fibra desde el primer minuto y dejando el cabello más suave y brillante. Los reflejos lucen más intensos. Esta máscara profesional nutre intensamente, haciendo que el color del cabello teñido dure más tiempo. Este spray profesional, enriquecido con resveratrol, está diseñado para tratar todos los tipos y necesidades del cabello teñido. Sólo 1 rociado te aporta 10 beneficios inmediatos para perfeccionar tu resultado de color: 1) Protección contra el calor hasta 230 ° C / 450 ° F grados *. 2) Brillo. 3) Suavidad. 4) Homogeneidad. 5) Termoprotección. 6) Desenredo. 7) Facilita brushing. 8) Anti-quiebre. 9) Anti-puntas abiertas. 10) Anti-frizz. Este spray multiusos se puede utilizar antes del corte, antes de secado con toalla y sobre el cabello húmedo o dar un retoque en el cabello seco para una protección del color final. El pelo se siente más ligero, manejable, suave y queda 6 veces más brillante y radiante.  Su fórmula profesional contiene resveratrol, un poderoso anti-oxidante inspirado en en cuidado de la piel para una protección del color final. Para resultados óptimos, utilizar el Shampoo, Acondicionador, Máscara y Spray 10 en 1 de Vitamino.",
+   },
+   {
+    "id": "89",
+    "name": "HAIR MIRACLE SERUM 130ML",
+    "price":"4.649",
+    "marca": "COONY",
+    "categoria":"tratamiento",
+    "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/p/s/ps141871-a.jpg",
+    "description":"Serum premium para el cabello, con 7 ingredientes destacados derivados botánicos de alta pureza y concentración. Uno de ellos es el Aceite de Argán, que ayuda a revitalizar el cabello dañado por el sol y las tinturas. Gracias a la ceramida y al aceite de Jojoba, ayuda a mejorar la textura y restaurar el brillo, para crear un cabello sedoso y saludable. Este eficaz serum ultra ligero de rápida absorción es rico en vitaminas y aporta hidratación, suavidad y fortaleza a tu cabello.",
+   },
+   {
+    "id": "90",
+    "name": "RECONSTRUCTION EXTRA CELL PLEX NATURAL OILS PASO 2 BÁLSAMO 300ML   ",
+    "price":"6.200",
+    "marca": "LA PUISSANCE",
+    "categoria":"tratamiento",
+    "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/4/144703-a-reconstruction-extra-cell-plex-natural-oils-paso-2-b_lsamo-300ml.jpg",
+    "description":"La fórmula desarrollada a partir de las paredes celulares de una levadura del mundo vitivinícola, aporta péptidos de bajo peso molecular que multiplican y reconstruyen los enlaces de la fibra del cabello, creando así una nueva arquitectura capilar. Aporta kaps (rellenado proteico), que protegen los puentes de disulfuro, y contiene aceites naturales de argán, oliva, maíz, girasol y almendras, aportando así una nutrición orgánica esencial e intensa. Esta línea de productos con biotecnología se recomienda para cabellos con daños profundos que son resultado de diversos tratamientos químicos como alisados, tinturas y decoloraciones. Es una línea compuesta por 6 pasos, la aplicación de todos los productos potencia la efectividad del tratamiento y acelera el resultado de la reconstrucción capilar.",
+   },
 
+   {
+ "id": "91",
+ "name": "EQUAVE HYDRO NUTRITIVE DETANGLING CONDITIONER 200ML",
+ "price":"8.712",
+ "marca": "REVLON PROFESSIONAL",
+ "categoria":"acondicionador",
+ "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/p/s/ps108464.jpg",
+ "description":"Acondicionador ligero sin aclarado. Especial para cabello seco, dañado o deshidratado. La fase superior desenreda el cabello y aporta brillo a la vez que lo protege del exterior. La fase inferior revitaliza e hidrata la fibra capilar aportando flexibilidad y nutrición.",
+},
+{
+ "id": "92",
+ "name": "COMBO SERIE EXPERT ABSOLUT REPAIR SHAMPOO & ACONDICIONADOR & ACEITE MULTI-BENEFICIO",
+ "price":"24.960",
+ "marca": "L'OREAL PROFESSIONNEL",
+ "categoria":"acondicionador",
+ "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/4/143102-a-combo-serie-expert-absolut-repair-shampoo-acondicionador-aceite_1.jpg",
+ "description":"El combo incluye: Serie Expert Absolut Repair Shampoo 300ml + Serie Expert Absolut Repair Acondicionador 200ml + Serie Expert Absolut Repair Aceite Multi-Beneficio 90ml. El Shampoo Absolut Repair ofrece la última experiencia profesional de reparación para el cabello dañado. El Acondicionador Absolut Repair ofrece la última experiencia profesional de reparación para el cabello dañado y seco. Este repara el cabello dañado visiblemente con un toque muy ligero y suave, además de tratar y desenredar el pelo. Spray profesional multi propósito 10-en-1 de aceite para cabello normal a sensibilizado. Enriquecido con aceite de germen de trigo. Una acción, 10 beneficios: 1-Nutrición. 2-Reparación. 3-Toque ligero. 4-Suavidad. 5-Ayuda a desenredar. 6-Disciplina. 7- Manejabilidad. 8-Brillo. 9-Protección. 10-Ligereza. Los resultados se demuestran: recupera visiblemente el cabello dañado con un toque muy ligero y suave que resulta en 77% * menos daños en la superficie de la fibra. El pelo es manejable y más brillante después de la rutina de tratamiento Absolut Repair. La fibra se fortalece y restaura gracias a los potentes ingredientes de quinoa dorada y proteínas. Esta fórmula profesional es utilizada y aprobada por peluqueros y parte de su tratamiento en los salones de L'Oréal Paris Professionnel en todo el mundo. *Para un resultado óptimo de reparación de daños en el cabello, aplicar la rutina de Absolut Repair de cuidado del cabello de tres pasos, que incluye el shampoo nutritivo, la máscara de reparación profunda y el spray 10-en-1 multipropósito.",
+},
+{
+    "id": "93",
+    "name": "SEMI DI LINO MOISTURE NUTRITIVE LEAVE IN CONDITIONER 1000ml    ",
+    "price":"11.935",
+    "marca": "ALFAPARF",
+    "categoria":"acondicionador",
+    "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/p/s/ps126665.jpg",
+    "description":"Acondicionador hidratante sin enjuage: suaviza la fibra capilar y facilita el control sin aplastar el cabello. Contiene:URBAN DEFENCE PRO3: Escudo anticontaminación para una protección total. SHINE FIX COMPLEX: 24 horas de brillo de la raíz a las puntas. COLOR FIX COMPLEX: Filtro UVA&UVB y antioxidantes para la protección del color. NUTRI-AZÚCARES: Micro-moléculas hidratantes y nutrientes extracto de la miel. La NUEVA línea Moisture de Alfaparf Milano es una línea dedicada a restablecer la hidratación y nutrición de los cabellos secos y extremadamente secos, devuelve las proteínas naturales al cabello. Limpia y nutre en profundidad los cabellos secos, haciéndolos suaves y lisos. Ideal para todo tipo de cabello. Rico en hidratos de carbono y vitaminas para una completa hidratación.",
+   },
+   {
+    "id": "94",
+    "name": "BLENDS OF MANY MATTE PASTE 75ml",
+    "price":"5.214",
+    "marca": "ALFAPARF",
+    "categoria":"cerasygeles",
+    "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/p/s/ps131740.jpg",
+    "description":"Cera de fijacion con efecto opaco, que le brinda estructura y definicion al cabello.",
+   },
+   {
+    "id": "95",
+    "name": "SEMI DI LINO DIAMOND ILLUMINATING CONDITIONER LEAVE-IN 200ml",
+    "price":"6.278",
+    "marca": "ALFAPARF",
+    "categoria":"cerasygeles",
+    "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/p/s/ps89847-a.jpg",
+    "description":"Crema de peinar sin enjuague. Producto sin enjuague para cabellos normales. Indicado para peinar y acondicionar al instante, ofrece brillo, ligereza y suavidad. La línea DIAMOND es la encargada de revitalizar, proteger e iluminar. El cabello mantiene su belleza y vitalidad a lo largo del tiempo.",
+   },
+   {
+    "id": "96",
+    "name": "CURL MANIFESTO GELEE CURL CONTOUR 150ML",
+    "price":"11.695",
+    "marca": "KERASTASE",
+    "categoria":"cerasygeles",
+    "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/3/138631-a-curl-manifesto-gelee-curl-contour-150ml.jpg",
+    "description":"Gel-crema definidor de rulos con miel de Manuka y Ceramida para cabellos ondulados, rizados y afro. Combina las propiedades de hidratación de una crema y la fijación de un gel para controlar el frizz las 24 horas del día*. Utiliza la rutina Curl Manifiesto de los para peinar y ampliar la forma natural de los rulos con suavidad, definición y sin efecto crujiente. Los rulos quedan visiblemente nutridos, con forma y con un brillo intenso. Redefine y fortalece intensamente el cabello ondulado, rizado y afro. Nutre la fibra capilar, proporcionando suavidad y un aspecto saludable. Proporciona una hidratación ligera a los rulos sin apelmazarlos.",
+   },
+  
 ]
 
  

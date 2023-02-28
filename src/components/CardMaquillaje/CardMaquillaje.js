@@ -13,14 +13,7 @@ function CardMaquillaje() {
    useEffect(() => {
      setProducts(data);
    }, []); 
-  
-   // function addToCart(id) {
-   //   dispatch({ type: TYPES.ADD_TO_CART, payload: id })
-   //   console.log(state)
-   // }
-  
- 
- 
+
    const maquillaje = data.filter(x => x.categoria ==='maquillaje')
    console.log(maquillaje);
    const dispatch = useDispatch();
@@ -30,7 +23,6 @@ function CardMaquillaje() {
            <>
              <h3>Productos de maquillaje</h3>
              <br></br>
-             <div>Filtros de búsqueda</div>
  
              <div className='grid'>
             

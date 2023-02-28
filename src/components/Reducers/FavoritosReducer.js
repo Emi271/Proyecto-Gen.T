@@ -11,14 +11,14 @@ export const initialState = {
   favs: [],
 };  
 
-export function FavoritosReducer(state = initialState, action) {
+export function favoritosReducer(state = initialState, action) {
   switch (action.type) {
     case ADD_TO_FAVORITES: {
-      const newItem = state.favs.find(
-        (product) => product.id === action.favload
+      const newItem = state.products.find(
+        (product) => product.id === action.payload
       );
       
-      const itemInFavorites = state.favs.find((item) => item.id === newItem.id);
+      let itemInFavorites = state.favs.find((item) => item.id === newItem.id);
       
       return itemInFavorites
         ? {
@@ -35,26 +35,26 @@ export function FavoritosReducer(state = initialState, action) {
           };
     }
     case REMOVE_ONE_FROM_FAVORITES: {
-      const itemToDelete = state.favs.find((item) => item.id === action.favload);
+      let itemToDelete = state.favs.find((item) => item.id === action.payload);
 
       return itemToDelete.quantity > 1
         ? {
             ...state,
             favs: state.favs.map((item) =>
-              item.id === action.favload
+              item.id === action.payload
                 ? { ...item, quantity: item.quantity - 1 }
                 : item
             ),
           }
         : {
             ...state,
-            favs: state.favs.filter((item) => item.id !== action.favload),
+            favs: state.favs.filter((item) => item.id !== action.payload),
           };
     }
     case REMOVE_ALL_FROM_FAVORITES: {
       return {
         ...state,
-        favs: state.favs.filter((item) => item.id !== action.favload),
+        favs: state.favs.filter((item) => item.id !== action.payload),
       };
     }
     case CLEAR_FAVORITES:

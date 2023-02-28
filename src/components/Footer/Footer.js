@@ -25,6 +25,7 @@ export const Footer = () => {
             </CDBBox>
           </CDBBox>
           <CDBBox>
+            <br></br>
             <p className="h5 mb-2" style={{ fontWeight: '600' }}>
             Acerca de Emi're
             </p>
@@ -37,9 +38,7 @@ export const Footer = () => {
             </CDBBox>
           </CDBBox>
           <CDBBox>
-            <p className="h5 mb-2" style={{ fontWeight: '600' }}>
-            no se como se va a llamar esto
-            </p>
+          <br></br>
             <CDBBox display="flex" flex="column" style={{ cursor: 'pointer' }}>
               <CDBFooterLink href="/contacto">Suscríbete</CDBFooterLink>
              <a src="" > <CDBFooterLink href="https://buenosaires.gob.ar/jefaturadegabinete/atencion-ciudadana-y-gestion-comunal/defensa-al-consumidor">Para consultas y/o denuncias ingrese aquí</CDBFooterLink></a>

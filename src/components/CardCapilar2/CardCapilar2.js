@@ -14,13 +14,6 @@ function CardCapilar2() {
   useEffect(() => {
     setProducts(data);
   }, []); 
- 
-  // function addToCart(id) {
-  //   dispatch({ type: TYPES.ADD_TO_CART, payload: id })
-  //   console.log(state)
-  // }
- 
-
 
   const acondicionador = data.filter(x => x.categoria ==='acondicionador')
   console.log(acondicionador);
@@ -29,9 +22,8 @@ function CardCapilar2() {
   const { cart } = state.shopping;
 return (
           <>
-            <h3>Shampoos, Acondicionadores y demás</h3>
+            <h3>Acondicionadores</h3>
             <br></br>
-            <div>Filtros de búsqueda</div>
 
             <div className='grid'>
            

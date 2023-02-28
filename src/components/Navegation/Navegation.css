@@ -96,3 +96,30 @@
       }
     } */
 
+.lista {
+  color: rgb(0, 0, 0);
+padding-bottom: 8px;
+  font-size: 1.3rem;
+  position: relative;
+  list-style: none;
+  text-decoration: none;
+}
+.links {
+  color: rgb(0, 0, 0);
+  margin: 0 0.8rem;
+  font-size: 18px;
+  position: relative;
+  list-style: none;
+  text-decoration: none; 
+  padding-top: 8px;
+}
+.microlinks {
+  display: flex;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  list-style: none;
+  text-decoration: none; 
+}
+.a {
+  text-decoration: none;
+}

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import './Card.css'
 import { addToCart } from '../Actions/ShoppingAcctions';
 import { useDispatch, useSelector } from 'react-redux';
 import Button from 'react-bootstrap/Button';
@@ -9,15 +8,15 @@ import CardHeader from 'react-bootstrap/esm/CardHeader';
 import { data } from '../assets/db/data';
 
  
-function CardProduct() {
+function CardCerasyGeles() {
   const [products, setProducts] = useState([])
   
  useEffect(() => {
    setProducts(data);
  }, []); 
 
- const perfumemujer = data.filter(x => x.categoria ==='perfumemujer')
- console.log(perfumemujer);
+ const cerasygeles = data.filter(x => x.categoria ==='cerasygeles')
+ console.log(cerasygeles);
  const dispatch = useDispatch();
  const state = useSelector((state) => state);
 
@@ -25,13 +24,13 @@ function CardProduct() {
 
 return (
          <> 
-           <h3>Perfumes de mujeres</h3>
+           <h3>Ceras y geles</h3>
            <br></br>
            <div>Filtros de búsqueda</div>
 
            <div className='grid'>
           
-             {products.filter(x => x.categoria ==='perfumemujer').map((p) => {
+             {products.filter(x => x.categoria ==='cerasygeles').map((p) => {
                return (<Card 
                  style={{ width: '18rem' }}  className="tarjeta" >
                    <article key={p.id} >
@@ -54,4 +53,4 @@ return (
            </div>
          </>)}
  
-export default CardProduct
+export default CardCerasyGeles

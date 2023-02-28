@@ -26,7 +26,11 @@ import CardMascaraCapilar from './components/MascarasCapilar/productos';
 import Trabajo from './components/OfertaLaboral/Trabajo';
 import MisFavoritos from './components/MisFavoritos/MisFavoritos';
 import FormasdePago from './components/Métodos de pago/FormasdePago';
-import Actividad from './components/Actividadcss/pruebaCSS';
+import Buscador from './components/Navegation/buscador';
+import CardCepillos from './components/CardCepillos/CardCepillos';
+import CardCerasyGeles from './components/CardCerasygeles/CerasyGeles';
+import CardTratamiento from './components/CardTratamiento/Tratamientos';
+
 
 function App() {
   return (
@@ -57,7 +61,10 @@ function App() {
         <Route path="/mascarasCapilar" element={<CardMascaraCapilar/>} />
         <Route path="/Trabajo" element={<Trabajo/>} />
         <Route path="/FormasDePago" element={<FormasdePago/>} />
-        <Route path="/Actividad" element={<Actividad/>} />
+        <Route path="/Buscar" element={<Buscador/>} />
+        <Route path="/cerasygeles" element={<CardCerasyGeles/>} />
+        <Route path="/tratamiento" element={<CardTratamiento/>} />
+        <Route path="/cepillos" element={<CardCepillos/>} />
 
       </Routes>
       <br></br>

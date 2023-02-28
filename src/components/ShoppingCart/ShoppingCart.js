@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from "react-redux";
 import { addToCart, clearCart, delFromCart } from "../Actions/ShoppingAcctions";
 import Card from 'react-bootstrap/Card';
+import { Button } from 'react-bootstrap';
 import { Alert } from 'react-bootstrap';
 import './ShoppingCart.css'
 
@@ -32,7 +33,7 @@ const ShoppingCart = () => {
                 <Card.Img className='imgn' variant="top" src={item.image} />
                   <Card.Text>Cantidad :{item.quantity}</Card.Text>
                   <Card.Text>Precio: ${item.price} x {item.quantity} = ${(item.price * item.quantity).toFixed(2)}</Card.Text>
-                 {/*  <button onClick={dispatch(delFromCart(product.id, true))}>Eliminar</button> */}
+                  <Button onClick={() => dispatch(delFromCart())}>Eliminar</Button>
                   </Card.Body>
                   </Card> 
                   
@@ -40,6 +41,7 @@ const ShoppingCart = () => {
             })}
             </div>
               </article>
+              <Button onClick={() => dispatch(clearCart())}>Limpiar Carrito</Button>
             {/*   <article>
               <button onClick={() => dispatch(clearCart())}>Limpiar Carrito</button>
         {cart.map((item, index) => (

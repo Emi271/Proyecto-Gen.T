@@ -4,6 +4,7 @@ import * as Yup from 'yup';
 import { Formik } from 'formik';
 
 function Contact2() {
+    
     const [info, setInfo] = useState(null);
  
     const validateSchema = Yup.object().shape({
