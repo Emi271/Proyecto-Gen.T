@@ -13,7 +13,6 @@ import Contact2 from './components/Contact2/Contact2';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ShoppingCart from './components/ShoppingCart/ShoppingCart';
 import store from "./store/index";
-/* import store2 from './store/index2';  */
 import ProductDetalle from './components/Item/Item';
 import Footer from './components/Footer/Footer';
 import Terms from './components/Terms/Terms';
@@ -38,7 +37,6 @@ function App() {
     <div className="App">
       
       <Provider store={store}>
-   {/*     <Provider store2={store2}>  */}
       <Navegation />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -65,7 +63,6 @@ function App() {
         <Route path="/cerasygeles" element={<CardCerasyGeles/>} />
         <Route path="/tratamiento" element={<CardTratamiento/>} />
         <Route path="/cepillos" element={<CardCepillos/>} />
-
       </Routes>
       <br></br>
       <Footer></Footer>
