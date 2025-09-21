@@ -1,17 +1,18 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Routes, Route } from "react-router-dom";
 import { Provider } from 'react-redux';
+import store from "./store/index";
 import Home from './components/Home/Home';
 import Navegation from './components/Navegation/Nategation';
 import CardProduct from './components/Card/Card';
 import CardPerfHombre from './components/CardPerfumeHombre/PerfumeHombre';
 import Contact from './components/Contact/Contact';
 import Contact2 from './components/Contact2/Contact2';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import ShoppingCart from './components/ShoppingCart/ShoppingCart';
-import store from "./store/index";
-import ProductDetalle from './components/Item/Item';
 import MisFavoritos from './components/MisFavoritos/MisFavoritos';
+import ProductDetalle from './components/Item/Item';
+
 
 function App() {
   return (

@@ -1,4 +1,3 @@
-import React from 'react';
 import { useSelector, useDispatch } from "react-redux";
 import { addToFavorites, delFromFavorites, ClearFavorites } from '../Actions/FavoritesActions';
 import Card from 'react-bootstrap/Card';
@@ -7,7 +6,7 @@ import { Button } from 'react-bootstrap';
 const MisFavoritos = () => {
   const state = useSelector((state) => state);
   const dispatch = useDispatch();
-  const { products, favs } = state.favs; 
+  const { favs } = state.favs; 
 
   return (
     <>

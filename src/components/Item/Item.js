@@ -1,13 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import './Item.css'
 import { useDispatch, useSelector } from 'react-redux';
 import { addToFavorites } from '../Actions/FavoritesActions';
 import { useParams } from 'react-router-dom';
 import { addToCart } from '../Actions/ShoppingAcctions';
 import { data } from '../assets/db/data';
-import Card from 'react-bootstrap/Card';
 import { Alert } from 'react-bootstrap';
-import CardHeader from 'react-bootstrap/CardHeader';
 import { Button } from 'react-bootstrap';
 
 const ProductDetalle = () => {
@@ -16,7 +14,7 @@ const ProductDetalle = () => {
   const [product, setProduct] = useState(null);
   const dispatch = useDispatch();
   const state = useSelector((state) => state);
-  const { favs } = state.favs;
+  const { } = state.favs;
 
   useEffect(() => {
     if (!id) return;

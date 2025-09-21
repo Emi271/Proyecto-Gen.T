@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from "react-redux";
 import { addToCart, clearCart, delFromCart } from "../Actions/ShoppingAcctions";
 import Card from 'react-bootstrap/Card';
@@ -9,7 +8,7 @@ import './ShoppingCart.css'
 const ShoppingCart = () => {
   const state = useSelector((state) => state);
   const dispatch = useDispatch();
-  const { products, cart } = state.shopping;
+  const { cart } = state.shopping;
 
 
   return (
@@ -20,7 +19,6 @@ const ShoppingCart = () => {
         <Alert.Heading variant='success' >Envíos Gratis a partir de $4.000</Alert.Heading>
         </Alert>
       <h3 className='texto'>Carrito</h3>
-{/*       {context.cart.length <= 0 && <p>No hay elementos agregados</p>} */}
 <div className='carrito'>
             {cart.map((item, index) => {
               return (
@@ -42,16 +40,6 @@ const ShoppingCart = () => {
             </div>
               </article>
               <Button onClick={() => dispatch(clearCart())}>Limpiar Carrito</Button>
-            {/*   <article>
-              <button onClick={() => dispatch(clearCart())}>Limpiar Carrito</button>
-        {cart.map((item, index) => (
-          <CartItem
-            key={index}
-            data={item}
-            delOneFromCart={() => dispatch(delFromCart(item.id))}
-            delAllFromCart={() => dispatch(delFromCart(item.id, true))}/>))}
-            </article> */}
-            {/*   <button onClick={() => dispatch(clearCart())}>Limpiar Carrito</button> */}
                   </div>
                   </>         
               );

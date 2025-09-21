@@ -1,6 +1,5 @@
-import React from 'react'
 import './Home.css'
-import { Card, CardGroup, CardImg } from 'react-bootstrap';
+import { Card, CardGroup  } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button'
 import Carousel from 'react-bootstrap/Carousel';
 import c1 from '../assets/imgs/carousel1.jpg'

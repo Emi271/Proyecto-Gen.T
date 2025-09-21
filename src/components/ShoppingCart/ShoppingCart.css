@@ -1,7 +1,6 @@
 .box {
     background-color:#EEEEEE;
-
-height:auto;
+    height:auto;
 }
 
 .texto {
@@ -13,11 +12,14 @@ height:auto;
 
  .carrito {
     padding-left: 80px ;
-padding-top: 40px;}
+    padding-top: 40px;
+}
+
 .AdressForm {
     display: flex;
     justify-content: space-between;
 }
+
 .PaymentForm {
    display: flex; 
    justify-content: space-between;

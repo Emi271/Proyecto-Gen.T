@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Form, Button } from 'react-bootstrap';
 import * as Yup from 'yup';
 import { Formik } from 'formik';
@@ -31,13 +31,8 @@ function Contact2() {
             enableReinitialize={false}
         >
             {({
-                touched,
-                isValid,
-                isInvalid,
                 errors,
-                handleBlur,
                 handleChange,
-                values,
                 validateForm,
             }) => (
 

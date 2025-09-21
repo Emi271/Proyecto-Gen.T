@@ -30,7 +30,6 @@ function Navegation () {
          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto">
-        <Link to="/Maquillaje"  className='links'>Maquillaje</Link>
         <NavDropdown title="Fragancias" id="collasible-nav-dropdown">
         <Link to="/productos"  className='microlinks'  >Fragancias Femeninas</Link>
         <Link to="/FraganciasHombres"  className='microlinks'>Fragancias Masculinas</Link>

@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { addToCart } from '../Actions/ShoppingAcctions';
 import { useDispatch, useSelector } from 'react-redux';
 import './PerfumeHombre.css'
-import ProductDetalle from '../Item/Item';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import {Link} from "react-router-dom";
@@ -10,7 +9,7 @@ import CardHeader from 'react-bootstrap/esm/CardHeader';
 import { data } from '../assets/db/data';
 
 function CardPerfHombre() {
-  const [products, setProducts, categoria] = useState([])
+  const [products, setProducts] = useState([])
     
    useEffect(() => {
      setProducts(data);
