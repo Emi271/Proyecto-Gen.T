@@ -1,35 +1,17 @@
 import './App.css';
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { Provider } from 'react-redux';
 import Home from './components/Home/Home';
 import Navegation from './components/Navegation/Nategation';
 import CardProduct from './components/Card/Card';
-import CardMaquillaje from './components/CardMaquillaje/CardMaquillaje';
 import CardPerfHombre from './components/CardPerfumeHombre/PerfumeHombre';
-import CardAccesorios from './components/CardAccesorios/CardAccesorios';
-import CardCapilar from './components/CardCapilar/CardCapilar';
 import Contact from './components/Contact/Contact';
 import Contact2 from './components/Contact2/Contact2';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ShoppingCart from './components/ShoppingCart/ShoppingCart';
 import store from "./store/index";
 import ProductDetalle from './components/Item/Item';
-import Footer from './components/Footer/Footer';
-import Terms from './components/Terms/Terms';
-import Politicas from './components/politicas/politicas';
-import Envio from './components/Envio/Envio';
-import LocalesInfo from './components/NuestrosLocales/LocalesInfo';
-import Capilar from './components/Card/Capilar/Capilar';
-import CardCapilar2 from './components/CardCapilar2/CardCapilar2';
-import CardMascaraCapilar from './components/MascarasCapilar/productos';
-import Trabajo from './components/OfertaLaboral/Trabajo';
 import MisFavoritos from './components/MisFavoritos/MisFavoritos';
-import FormasdePago from './components/Métodos de pago/FormasdePago';
-import Buscador from './components/Navegation/buscador';
-import CardCepillos from './components/CardCepillos/CardCepillos';
-import CardCerasyGeles from './components/CardCerasygeles/CerasyGeles';
-import CardTratamiento from './components/CardTratamiento/Tratamientos';
-
 
 function App() {
   return (
@@ -46,30 +28,9 @@ function App() {
         <Route path="/item/:id" element={<ProductDetalle />} />
         <Route path="/shoppingCard" element={<ShoppingCart />} />
         <Route path="/IniciarSesion" element={<Contact2 />} />
-        <Route path="/TerminosyCondiciones" element={<Terms />} />
-        <Route path="/Maquillaje" element={<CardMaquillaje />} />
         <Route path="/FraganciasHombres" element={<CardPerfHombre />} />
-        <Route path="/Capilar" element={<CardCapilar />} />
-        <Route path="/Accesorios" element={<CardAccesorios />} />
-        <Route path="/politicasdevoluciones" element={<Politicas/>} />
-        <Route path="/envios" element={<Envio/>} />
-        <Route path="/Nuestroslocales" element={<LocalesInfo/>} />
-        <Route path="/prueba" element={<Capilar/>} />
-        <Route path="/acondicionadores" element={<CardCapilar2/>} />
-        <Route path="/mascarasCapilar" element={<CardMascaraCapilar/>} />
-        <Route path="/Trabajo" element={<Trabajo/>} />
-        <Route path="/FormasDePago" element={<FormasdePago/>} />
-        <Route path="/Buscar" element={<Buscador/>} />
-        <Route path="/cerasygeles" element={<CardCerasyGeles/>} />
-        <Route path="/tratamiento" element={<CardTratamiento/>} />
-        <Route path="/cepillos" element={<CardCepillos/>} />
       </Routes>
-      <br></br>
-      <Footer></Footer>
-    
-     {/*    <ShoppingCart /> */}
       </Provider>
-{/*       </Provider>  */}
     </div>
 
  
