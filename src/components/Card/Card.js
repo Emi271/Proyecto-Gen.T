@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import './Card.css'
 import { addToCart } from '../Actions/ShoppingAcctions';
 import { useDispatch, useSelector } from 'react-redux';
@@ -9,7 +9,7 @@ import CardHeader from 'react-bootstrap/esm/CardHeader';
 import { data } from '../assets/db/data';
 
  
-function CardProduct() {
+function CardPerfumeMujer() {
   const [products, setProducts] = useState([])
   
  useEffect(() => {
@@ -54,4 +54,4 @@ return (
            </div>
          </>)}
  
-export default CardProduct
+export default CardPerfumeMujer

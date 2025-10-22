@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 import store from "./store/index";
 import Home from './components/Home/Home';
 import Navegation from './components/Navegation/Nategation';
-import CardProduct from './components/Card/Card';
+import CardPerfumeMujer from './components/Card/Card'
 import CardPerfHombre from './components/CardPerfumeHombre/PerfumeHombre';
 import Contact from './components/Contact/Contact';
 import Contact2 from './components/Contact2/Contact2';
@@ -23,7 +23,7 @@ function App() {
       <Navegation />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/productos" element={<CardProduct />} />
+        <Route path="/productos" element={<CardPerfumeMujer />} />
         <Route path="/contacto" element={<Contact />} />
         <Route path="/MisFavoritos" element={<MisFavoritos />} />
         <Route path="/item/:id" element={<ProductDetalle />} />
