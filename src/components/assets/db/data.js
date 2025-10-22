@@ -8,7 +8,7 @@ export const data = [
     "categoria":"perfumehombre",
     "description" : "La emoción de una sinuosa carretera de montaña. Un viento fresco sopla mientras el paisaje escarpado y pedregoso pasa rápidamente. El rastro de las ruedas agarrando el gris, el asfalto reluciente… Olor, vista, tacto… Áspero pero sofisticado, combinando un sendero excepcionalmente potente con una presentación audazmente original, Jaguar Classic Chromite está diseñado para excitar los sentidos. Una fragancia creada para un hombre que experimenta los desafíos como oportunidades increíbles.Mirando hacia adelante.Ferozmente independiente.",
     "marca":"JAGUAR",
-    "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/12f58ba0b5ccdae4c7a04d12241535d5/1/2/120726-a-classic-chromite-men-edt-100ml_1.jpg"
+    "image": ""
    
     },
     {
@@ -18,7 +18,7 @@ export const data = [
     "categoria":"perfumehombre",
     "description" : "Jaguar Classic de Jaguar, navegue hacia el Mediterráneo con cada rocío del acuático Jaguar Classic, una estimulante fragancia masculina. Esta colonia revitalizante combina notas cítricas, florales y dulces para obtener un aroma sensacional y delicioso que es perfecto para cualquier conjunto de primavera o verano.Las notas altas de mandarina, bergamota chispeante, lavanda relajante y bayas de enebro maduras presentan un aroma fresco y vigorizante desde el principio. Las notas medias de loto exótico, jengibre especiado y azahar realzan la atmósfera con su toque oriental. Completan la fragancia las notas base de benjuí, sándalo cremoso y almizcle sensual para un final reconfortante y tentador que seguramente llamará la atención en cualquier habitación.",
     "marca":"JAGUAR",
-    "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/12f58ba0b5ccdae4c7a04d12241535d5/1/4/145985-a-classic-men-edt-100ml_1.jpg"
+    "image": ""
    
     },
     {
@@ -28,7 +28,7 @@ export const data = [
     "categoria":"perfumehombre",
     "description": "Las fragancias de estilo elegante y clásico siempre gozan de gran éxito. Tome Jaguar Classic Black, por ejemplo: una estupenda composición de aromas. Es una fragancia masculina seductora y carismática que hará las delicias incluso de los hombres más exigentes. La excitante fragancia ofrece un ambiente emocionante y encarna una masculinidad decididamente moderna. Jaguar Classic Black se encuentra en la gran tradición de fragancias de los aromas Oriental. Es una fragancia expresiva, marcadamente masculina, que une a la perfección frescura y sensualidad. Su nota de cabeza de mandarina, manzana verde y naranja amarga es estimulante. De la nota de corazón surgen los tentadores aromas de cardamomo, té negro, nuez moscada y geranio, redondeados por un fresco acorde marino. En la nota de fondo revela su lado seductor, con las sensuales esencias de sándalo y cedro, vetiver y almizcle.",
     "marca":"JAGUAR",
-    "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/12f58ba0b5ccdae4c7a04d12241535d5/1/1/119277-a-classic-black-men-edt-100ml_1.jpg"
+    "image": ""
    
     },
     {
@@ -38,7 +38,7 @@ export const data = [
     "categoria":"perfumehombre",
     "description": "Fragancia Eau de Parfum, refinada y sofisticada, rinde homenaje a los conceptos de la masculinidad eterna, moderna y polifacética. Esta fragancia sofisticada reinterpreta la esencia fougère original introduciendo una nueva nota amaderada. Una base potente y elegante de gamuza y vetiver se cubre con un corazón cálido de ciprés y geranio. Las seductoras notas de salida de salvia y manzana aportan una frescura vigorizante a la esencia persistente y cautivadora.Un elixir de un esmeralda intenso brilla en el interior del emblemático frasco, irradiando frescura y fuerza.",
     "marca":"CALVIN KLEIN",
-    "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/P/R/PR25834BI23868_RP131073_ETERNITY_MEN_EDP_SZ1.jpg"
+    "image": ""
    
     },
     {
@@ -48,7 +48,7 @@ export const data = [
     "categoria":"perfumehombre",
     "description": "Fragancia masculina inspirada en un importante bosque de bambú es en China. Una composición llena de energía, fuerza y vitalidad, evocadora del chi, que es la energía vital, la fuerza de la vida. Fresca, cotidiana, con matices que sorprenden. Para hombres que valoran la naturalidad y la sencillez sin renunciar a la originalidad y la innovación.",
     "price":"9.735",
-    "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/mtools/300x300/catalog/product//1/0/100786-a-bambu-edt-120ml.jpg"
+    "image": ""
    
     },
     {
@@ -58,7 +58,7 @@ export const data = [
     "categoria":"perfumehombre",
     "description": "Kevin Spirit es una fragancia cálida y fresca. Explora todos los sentidos.",
     "price":"3.465",
-    "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/mtools/300x300/catalog/product//9/3/93446_3.jpg"
+    "image": ""
        
     },
    
@@ -69,7 +69,7 @@ export const data = [
     "categoria":"perfumehombre",
     "description": "Givenchy Gentleman Eau de Parfum Reserve Privée: la intensa fragancia para hombres inspirada en el whisky, en la que las elegantes notas florales contrastan con las profundidades amaderadas. Combinando la artesanía de la destilación de whisky con el savoir-faire de la perfumería, se revela una mezcla única de perfumes para hombres para conocedores. La singular fragancia se abre con un dúo fuerte y embriagador de sofisticados iris y maderas de color ámbar. Elaborado en Grasse con cebada fragante de una refinada destilería escocesa, el whisky absolute infunde el Givenchy Gentleman Reserve Privée eau de parfum con su elegancia suave, que encarna un refinamiento incomparable y atemporal.",
     "price":"44.200",
-    "image": "https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/mtools/300x300/catalog/product//1/4/142623-a-gentleman-reserve-priv_e-edp-100ml.jpg"
+    "image": ""
     },
     {
     "id": "8",
