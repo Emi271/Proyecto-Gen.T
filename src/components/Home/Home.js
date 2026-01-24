@@ -52,10 +52,6 @@ function Home() {
       </Carousel.Item>
     </Carousel>
 
-    {/* ACÁ ABAJO VAN LOS CARDS SUGIRIENDO PRODUCTOS, OFERTAS Y DEMÁS..
-    DEBERÍAMOS VER UN TOQUE EL COLOR DE LA NAVBAR.. YO
-    PENSABA EN UN ROSA O LILA ALGO TRANQUI PERO HERMOSO
-  */}
   <br></br>
   <div className='image1'>
   <img src='https://d3cdlnm7te7ky2.cloudfront.net/media/mgs/fbuilder/promobanners/DESTACADO.jpg' className='im1'></img>
