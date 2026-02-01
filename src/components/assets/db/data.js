@@ -267,7 +267,6 @@ export const data = [
     "image":"https://d3cdlnm7te7ky2.cloudfront.net/media/catalog/product/cache/3caedb57c154f4c66adc1fae2b6a3bf5/1/4/143341-b-dance-midnight-muse-edt-80ml_2.jpg"
     },
     
-    
     {
         "id": "30",
         "name": "CUBA AUTHENTIC HAPPY EDP 100ML",
