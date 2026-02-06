@@ -29,31 +29,54 @@ const ProductDetalle = () => {
   }
  
   return (
-    <div className='container'>
-      <Alert>
-        <Alert.Heading variant='success' >Envíos Gratis en compras a partir de $4.000</Alert.Heading>
-      </Alert>
-      <article key={product.id}>
-        <img className="card-item" alt="imagencard" src={product.image}></img>
-        <div className='card-titulo'>
-          <h4 className='card-nombre'>{product.name}</h4>
-          <h5 className='card-marca'>{product.marca}</h5>
-        </div>
-        <div className='precio'>
-          <h5 className='card-precio'>Precio: {product.price}</h5>
-        </div>
-      </article>
-      <br></br>
-      <div className='card-texto'>
-        <p>{product.description}</p>
-      </div>
-      <div className='botun'>
-        <Button onClick={() => dispatch(addToCart(product.id))} variant="primary">Comprar</Button>
-        <br></br><br></br>
-      <Button  onClick={() => dispatch(addToFavorites(product.id))} variant="primary">Agregar a favoritos</Button>
-      </div>
+    <div className='container main-product-section'>
+    {/* El Alert puede quedar arriba solo */}
+    <Alert variant='success' className="text-center mb-4">
+        <Alert.Heading style={{fontSize: '1rem', margin: 0}}>
+            Envíos Gratis en compras a partir de $4.000
+        </Alert.Heading>
+    </Alert>
 
-    </div>
+    <article className="product-layout" key={product.id}>
+        
+        {/* COLUMNA IZQUIERDA: IMAGEN */}
+        <div className="product-image-container">
+            <img className="product-img" alt={product.name} src={product.image} />
+        </div>
+
+        {/* COLUMNA DERECHA: INFO */}
+        <div className="product-info-container">
+            <div className='header-info'>
+                <h2 className='card-nombre'>{product.name}</h2>
+                <h3 className='card-marca'>{product.marca}</h3>
+            </div>
+
+            <div className='price-tag'>
+                <span>Precio: ${product.price}</span>
+            </div>
+
+            <div className='description-box'>
+                <p>{product.description}</p>
+            </div>
+
+            <div className='action-buttons'>
+                <Button 
+                    onClick={() => dispatch(addToCart(product.id))} 
+                    className="btn-comprar" 
+                    variant="primary">
+                    Comprar
+                </Button>
+                <Button 
+                    onClick={() => dispatch(addToFavorites(product.id))} 
+                    className="btn-fav" 
+                    variant="outline-primary"> {/* Sugiero outline para diferenciar */}
+                    Agregar a favoritos
+                </Button>
+            </div>
+        </div>
+
+    </article>
+</div>
   );
 };
 
